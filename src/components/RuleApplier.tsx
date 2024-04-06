@@ -1,13 +1,13 @@
 import { FunctionComponent } from "react";
-import OutputPort from "./OutputPort";
-import FrameComponent from "./FrameComponent";
+import OutputPort from "./OutputPort1";
+import FrameComponent from "./FrameComponent1";
 import styles from "./RuleApplier.module.css";
 
 const RuleApplier: FunctionComponent = () => {
   return (
     <div className={styles.errorHandlersWrapper}>
       <div className={styles.errorHandlers}>
-        <div className={styles.decisionMakers}>
+        <div className={styles.eventListeners}>
           <div className={styles.dataTransformer}>
             <OutputPort />
             <div className={styles.effortlesslyKeepTrack}>
@@ -36,7 +36,7 @@ const RuleApplier: FunctionComponent = () => {
             </div>
             <div className={styles.dataVisualization}>
               <div className={styles.resultRenderer} />
-              <div className={styles.eventListeners}>
+              <div className={styles.eventListeners1}>
                 <div className={styles.animationControllers}>
                   <div className={styles.layoutDesigners}>
                     <h2 className={styles.userFriendlyInterface}>
@@ -53,7 +53,7 @@ const RuleApplier: FunctionComponent = () => {
                 </div>
               </div>
               <div className={styles.resultRenderer1} />
-              <div className={styles.eventListeners1}>
+              <div className={styles.eventListeners2}>
                 <div className={styles.frameGroup}>
                   <div className={styles.increasedProductivityWrapper}>
                     <h2 className={styles.increasedProductivity}>
