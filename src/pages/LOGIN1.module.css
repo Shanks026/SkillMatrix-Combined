@@ -1,0 +1,485 @@
+.percOpIcon {
+  width: 2662.1px;
+  height: 2190.7px;
+  position: absolute;
+  margin: 0 !important;
+  right: -486.1px;
+  bottom: -643.7px;
+}
+.torryHarrisIntegrationSolutIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logo {
+  align-self: stretch;
+  width: 291px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+}
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  align-self: stretch;
+  width: 24px;
+  position: relative;
+  max-height: 100%;
+  min-height: 34px;
+}
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  width: 19.2px;
+}
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  width: 14.4px;
+}
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  width: 4.8px;
+}
+.vectorIcon5 {
+  width: 24px;
+}
+.vectorIcon6,
+.vectorIcon7,
+.vectorIcon8 {
+  height: 24px;
+  width: 19.2px;
+  position: relative;
+}
+.vectorIcon7,
+.vectorIcon8 {
+  height: 28.8px;
+}
+.vectorIcon8 {
+  height: 24px;
+}
+.vectorIcon9 {
+  align-self: stretch;
+  width: 14.4px;
+  position: relative;
+  max-height: 100%;
+  min-height: 34px;
+}
+.vectorIcon10 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.skillmatrix {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+}
+.logoParent,
+.skillmatrixWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.skillmatrixWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-26xl-2) 0 0;
+}
+.logoParent {
+  align-self: stretch;
+  height: 124px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.welcomeTo {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.welcomeToWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.vectorIcon11 {
+  align-self: stretch;
+  width: 37.6px;
+  position: relative;
+  max-height: 100%;
+  min-height: 53px;
+}
+.vectorIcon12,
+.vectorIcon13,
+.vectorIcon14,
+.vectorIcon15,
+.vectorIcon16 {
+  align-self: stretch;
+  width: 30.1px;
+  position: relative;
+  max-height: 100%;
+  min-height: 53px;
+}
+.vectorIcon13,
+.vectorIcon14,
+.vectorIcon15,
+.vectorIcon16 {
+  width: 22.6px;
+}
+.vectorIcon14,
+.vectorIcon15,
+.vectorIcon16 {
+  width: 7.5px;
+}
+.vectorIcon16 {
+  width: 37.6px;
+}
+.vectorIcon17,
+.vectorIcon18,
+.vectorIcon19 {
+  height: 37.6px;
+  width: 30.1px;
+  position: relative;
+}
+.vectorIcon18,
+.vectorIcon19 {
+  height: 45.1px;
+}
+.vectorIcon19 {
+  height: 37.6px;
+}
+.vectorIcon20 {
+  align-self: stretch;
+  width: 22.6px;
+  position: relative;
+  max-height: 100%;
+  min-height: 53px;
+}
+.vectorIcon21 {
+  height: 37.6px;
+  width: 37.6px;
+  position: relative;
+}
+.frameContainer,
+.skillmatrix1 {
+  align-self: stretch;
+  display: flex;
+}
+.skillmatrix1 {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0;
+  gap: var(--gap-6xs);
+}
+.frameContainer {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.logInTo {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.frameGroup,
+.frameWrapper,
+.logInToYourAccountWrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.logInToYourAccountWrapper {
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+}
+.frameGroup,
+.frameWrapper {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  gap: var(--gap-11xl);
+}
+.frameWrapper {
+  width: 363px;
+  min-height: 241px;
+}
+.frameChild {
+  width: 1px;
+  flex: 1;
+  position: relative;
+  border-right: 1px solid var(--color-lightsteelblue);
+  box-sizing: border-box;
+}
+.lineWrapper {
+  height: 257.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xl-8);
+  box-sizing: border-box;
+}
+.enterYourEmployee {
+  width: 259px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.enterYourEmployeeIdWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameParent2,
+.input {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gray-200);
+  height: 74px;
+  border-radius: var(--br-16xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xl) var(--padding-11xl);
+  box-sizing: border-box;
+  font-family: var(--font-urbanist);
+  font-size: var(--font-size-6xl);
+  color: var(--color-dimgray);
+  min-width: 250px;
+}
+.frameParent2 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.button {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 53px;
+}
+.logInButton {
+  align-self: stretch;
+  border-radius: var(--br-16xl);
+  background: linear-gradient(90deg, #5013ff, #1456ff);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xl) var(--padding-xl);
+}
+.frameParent1,
+.logInButtonWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logInButtonWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.frameParent1 {
+  gap: var(--gap-xl);
+}
+.areYouANewUser {
+  white-space: pre-wrap;
+}
+.register {
+  text-decoration: underline;
+}
+.areYouAContainer {
+  position: relative;
+}
+.areYouANewUserRegisterWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  cursor: pointer;
+}
+.forgotPassword {
+  position: relative;
+  text-decoration: underline;
+}
+.forgotPasswordWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  cursor: pointer;
+}
+.frameParent3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+}
+.frameDiv,
+.frameParent {
+  display: flex;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.frameDiv {
+  width: 613px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+}
+.frameParent {
+  width: 1412px;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(100.07deg, #e2e7ff, #d4e4ff);
+  box-shadow: -15px -15px 30px #f0f2ff, 15px 15px 30px #afcdff;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-136xl-5) var(--padding-89xl);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.login1,
+.login1Inner {
+  display: flex;
+  align-items: flex-start;
+}
+.login1Inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+}
+.login1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-19xl) 70.6px var(--padding-224xl) var(--padding-52xl-5);
+  box-sizing: border-box;
+  gap: var(--gap-61xl);
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-26xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-urbanist);
+}
+@media screen and (max-width: 1350px) {
+  .frameParent {
+    flex-wrap: wrap;
+    padding-left: var(--padding-35xl);
+    padding-right: var(--padding-35xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .login1 {
+    gap: 40px 80px;
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .welcomeTo {
+    font-size: var(--font-size-17xl);
+  }
+  .vectorIcon14,
+  .vectorIcon15 {
+    width: 100%;
+    height: 7.5px;
+  }
+  .skillmatrix1 {
+    flex-wrap: wrap;
+  }
+  .logInTo {
+    font-size: var(--font-size-9xl);
+  }
+  .frameParent3 {
+    flex-wrap: wrap;
+  }
+  .frameParent {
+    padding: var(--padding-82xl) var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .login1 {
+    gap: 20px 80px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcomeTo {
+    font-size: var(--font-size-8xl);
+  }
+  .logInTo {
+    font-size: var(--font-size-2xl);
+  }
+  .button,
+  .enterYourEmployee {
+    font-size: var(--font-size-xl);
+  }
+  .areYouAContainer,
+  .forgotPassword {
+    font-size: var(--font-size-lg);
+  }
+}

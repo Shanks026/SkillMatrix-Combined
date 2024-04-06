@@ -1,0 +1,170 @@
+.errorFill0Wght400Grad0OpszIcon {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.checkYourEmployee,
+.oopsThereWas {
+  margin: 0;
+  position: relative;
+  font-family: inherit;
+}
+.oopsThereWas {
+  width: 612px;
+  font-size: inherit;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.checkYourEmployee {
+  font-size: var(--font-size-11xl);
+  font-weight: 500;
+  color: var(--color-darkslategray);
+  text-align: left;
+}
+.oopsErrorBox,
+.oopsErrorBoxWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.oopsErrorBox {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 var(--padding-12xs-5);
+  box-sizing: border-box;
+  gap: 5px 16px;
+  min-height: 101px;
+}
+.oopsErrorBoxWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.button {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 60px;
+}
+.logInButton {
+  align-self: stretch;
+  border-radius: var(--br-16xl);
+  background: linear-gradient(90deg, #5013ff, #1456ff);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xl) var(--padding-xl);
+}
+.logInButtonWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.areYouANewUser {
+  white-space: pre-wrap;
+}
+.register {
+  text-decoration: underline;
+}
+.areYouAContainer {
+  position: relative;
+}
+.areYouANewUserRegisterWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.inputArea,
+.loginButton,
+.loginButtonWrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.loginButton {
+  width: 613px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-11xl);
+}
+.inputArea,
+.loginButtonWrapper {
+  flex-direction: row;
+}
+.loginButtonWrapper {
+  width: 1412px;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(100.07deg, #e2e7ff, #d4e4ff);
+  box-shadow: -15px -15px 30px #f0f2ff, 15px 15px 30px #afcdff;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  padding: var(--padding-83xl) var(--padding-xl);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.inputArea {
+  align-self: stretch;
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+  font-family: var(--font-urbanist);
+}
+@media screen and (max-width: 950px) {
+  .oopsThereWas {
+    font-size: var(--font-size-21xl);
+  }
+  .checkYourEmployee {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 700px) {
+  .loginButtonWrapper {
+    padding-top: var(--padding-47xl);
+    padding-bottom: var(--padding-47xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .oopsThereWas {
+    font-size: var(--font-size-11xl);
+  }
+  .checkYourEmployee {
+    font-size: var(--font-size-lg);
+  }
+  .button {
+    font-size: var(--font-size-xl);
+  }
+  .areYouAContainer {
+    font-size: var(--font-size-lg);
+  }
+}

@@ -1,0 +1,205 @@
+.torryHarrisIntegrationSolutIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logo {
+  align-self: stretch;
+  width: 291px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.home1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 58px;
+}
+.home {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.features1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 84px;
+}
+.features {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.howItWorks1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 127px;
+  white-space: nowrap;
+}
+.howItWorks {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.benefits1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 79px;
+}
+.benefits {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactUs1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 108px;
+  white-space: nowrap;
+}
+.contactUs,
+.navigationBar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navigationBar {
+  width: 696px;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+}
+.button {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 54px;
+}
+.arrowDownIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  display: none;
+  min-height: 24px;
+}
+.inside {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-34xl);
+  background-color: transparent;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(90deg, #1456ff, #5013ff);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+}
+.button1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--obsidian);
+  text-align: left;
+  display: inline-block;
+  min-width: 73px;
+}
+.arrowDownIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  display: none;
+  min-height: 24px;
+}
+.inside1 {
+  cursor: pointer;
+  border: 3px solid var(--color-mediumslateblue);
+  padding: var(--padding-smi) var(--padding-21xl);
+  background-color: transparent;
+  flex: 1;
+  border-radius: var(--br-11xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.inside1:hover {
+  background-color: var(--color-royalblue-200);
+  border: 3px solid var(--color-royalblue-100);
+  box-sizing: border-box;
+}
+.header,
+.outputPort,
+.subCta {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.subCta {
+  width: 350px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+}
+.header,
+.outputPort {
+  align-self: stretch;
+}
+.header {
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.outputPort {
+  height: 124px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--obsidian);
+  font-family: var(--font-urbanist);
+}
+@media screen and (max-width: 1650px) {
+  .navigationBar {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .navigationBar {
+    gap: 60px 30px;
+  }
+  .subCta {
+    display: none;
+  }
+}

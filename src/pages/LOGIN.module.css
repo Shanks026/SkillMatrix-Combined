@@ -1,0 +1,132 @@
+.percOpIcon {
+  width: 2662.1px;
+  height: 2190.7px;
+  position: absolute;
+  margin: 0 !important;
+  right: -486.1px;
+  bottom: -643.7px;
+}
+.torryHarrisIntegrationSolutIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logo {
+  align-self: stretch;
+  width: 291px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.errorFillGradient,
+.errorFillGradient1,
+.errorFillGradient2 {
+  height: 33.6px;
+  width: 24px;
+  position: relative;
+  min-height: 34px;
+}
+.errorFillGradient1,
+.errorFillGradient2 {
+  width: 19.2px;
+}
+.errorFillGradient2 {
+  width: 14.4px;
+}
+.errorFillGradient3,
+.errorFillGradient4,
+.errorFillGradient5 {
+  height: 33.6px;
+  width: 4.8px;
+  position: relative;
+  min-height: 34px;
+}
+.errorFillGradient5 {
+  width: 24px;
+}
+.errorFillGradient6 {
+  height: 24px;
+  width: 19.2px;
+  position: relative;
+}
+.errorFillGradient7,
+.errorFillGradient8 {
+  height: 28.8px;
+  width: 19.2px;
+  position: relative;
+}
+.errorFillGradient8 {
+  height: 24px;
+}
+.errorFillGradient9 {
+  height: 33.6px;
+  width: 14.4px;
+  position: relative;
+  min-height: 34px;
+}
+.errorFillGradient10 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.skillmatrix {
+  height: 33.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  z-index: 1;
+}
+.skillmatrixWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-26xl-2) 0 0;
+}
+.login3,
+.logoParent,
+.skillmatrixWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.logoParent {
+  align-self: stretch;
+  height: 124px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.login3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-19xl) var(--padding-52xl) var(--padding-224xl)
+    var(--padding-52xl-5);
+  box-sizing: border-box;
+  gap: var(--gap-61xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 975px) {
+  .login3 {
+    gap: 40px 80px;
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .login3 {
+    gap: 20px 80px;
+  }
+}
