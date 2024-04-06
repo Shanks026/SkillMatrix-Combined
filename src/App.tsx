@@ -11,7 +11,6 @@ import LOGIN1 from "./pages/LOGIN1";
 import LOGIN2 from "./pages/LOGIN2";
 import REGISTER from "./pages/REGISTER";
 import REGISTER1 from "./pages/REGISTER1";
-import REGISTER2 from "./pages/REGISTER2";
 import REGISTERPASS from "./pages/REGISTERPASS";
 import EMPLOYEEDASHBOARD from "./pages/EMPLOYEEDASHBOARD";
 import REGISTERPASS1 from "./pages/REGISTERPASS1";
@@ -21,6 +20,7 @@ import DRAFTS from "./pages/DRAFTS";
 import NOTIFICATION1 from "./pages/NOTIFICATION1";
 import ADDSKILL from "./pages/ADDSKILL";
 import SUBMISSIONS from "./pages/SUBMISSIONS";
+import REGISTER2 from "./pages/REGISTER2";
 
 function App() {
   const action = useNavigationType();
@@ -62,10 +62,6 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/register-3":
-        title = "";
-        metaDescription = "";
-        break;
       case "/register-pass-4":
         title = "";
         metaDescription = "";
@@ -102,6 +98,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/register-3":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -126,7 +126,6 @@ function App() {
       <Route path="/login-2" element={<LOGIN2 />} />
       <Route path="/register-1" element={<REGISTER />} />
       <Route path="/register-2" element={<REGISTER1 />} />
-      <Route path="/register-3" element={<REGISTER2 />} />
       <Route path="/register-pass-4" element={<REGISTERPASS />} />
       <Route path="/employee-dashboard" element={<EMPLOYEEDASHBOARD />} />
       <Route path="/register-pass-1" element={<REGISTERPASS1 />} />
@@ -136,6 +135,7 @@ function App() {
       <Route path="/notification-1" element={<NOTIFICATION1 />} />
       <Route path="/add-skill" element={<ADDSKILL />} />
       <Route path="/submissions" element={<SUBMISSIONS />} />
+      <Route path="/register-3" element={<REGISTER2 />} />
     </Routes>
   );
 }

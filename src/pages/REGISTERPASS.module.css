@@ -212,7 +212,7 @@
   overflow: hidden;
   flex-shrink: 0;
   align-items: center;
-  padding: 130px var(--padding-xl);
+  padding: var(--padding-111xl) var(--padding-xl);
   box-sizing: border-box;
   z-index: 1;
 }

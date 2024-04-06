@@ -72,7 +72,7 @@ const MYSKILLS: FunctionComponent = () => {
                 <img
                   className={styles.addCircleIcon}
                   alt=""
-                  src="/addcircle.svg"
+                  src="/addcircle1.svg"
                 />
                 <div className={styles.button1}>New Skill</div>
               </button>

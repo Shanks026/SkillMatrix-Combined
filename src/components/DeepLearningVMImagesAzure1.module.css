@@ -12,7 +12,7 @@
   border-radius: 50%;
   background-color: var(--color-limegreen);
 }
-.mSQLIntegrationSSIS {
+.androidComponentsNAWrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -29,7 +29,7 @@
   display: inline-block;
   min-width: 83px;
 }
-.mSQLIntegrationSSISParent {
+.frameParent {
   cursor: pointer;
   border: 2px solid var(--color-limegreen);
   padding: var(--padding-4xs) var(--padding-xl);

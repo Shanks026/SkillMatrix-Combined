@@ -46,7 +46,7 @@ const NOTIFICATION1: FunctionComponent = () => {
 
   return (
     <div className={styles.notification1}>
-      <img className={styles.percOpIcon} alt="" src="/50perc-op.svg" />
+      <img className={styles.percOpIcon} alt="" src="/50perc-op1.svg" />
       <h2 className={styles.notifications}>Notifications</h2>
       <div className={styles.frameParent}>
         <div className={styles.frameGroup}>

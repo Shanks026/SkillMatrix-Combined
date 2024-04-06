@@ -113,14 +113,15 @@
   overflow: hidden;
   flex-direction: column;
   justify-content: flex-start;
-  padding: var(--padding-19xl) var(--padding-52xl) 363px var(--padding-52xl-5);
+  padding: var(--padding-19xl) var(--padding-52xl) var(--padding-224xl)
+    var(--padding-52xl-5);
   box-sizing: border-box;
-  gap: 200px;
+  gap: var(--gap-61xl);
   letter-spacing: normal;
 }
 @media screen and (max-width: 975px) {
   .register3 {
-    gap: 100px 200px;
+    gap: 40px 80px;
     padding-left: var(--padding-16xl);
     padding-right: var(--padding-16xl);
     box-sizing: border-box;
@@ -128,6 +129,6 @@
 }
 @media screen and (max-width: 700px) {
   .register3 {
-    gap: 50px 200px;
+    gap: 20px 80px;
   }
 }

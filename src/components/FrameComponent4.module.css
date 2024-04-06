@@ -22,7 +22,7 @@
   color: var(--color-darkslategray);
   text-align: left;
 }
-.frameContainer,
+.frameWrapper,
 .yourAccountHasBeenCreatedParent {
   align-self: stretch;
   display: flex;
@@ -37,7 +37,7 @@
   gap: 5px 16px;
   min-height: 101px;
 }
-.frameContainer {
+.frameWrapper {
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -90,14 +90,14 @@
   width: 725px;
   justify-content: center;
 }
-.frameWrapper,
-.register3Inner {
+.accountCreationMessage,
+.accountCreationMessageWrapper {
   display: flex;
   flex-direction: row;
   justify-content: center;
   max-width: 100%;
 }
-.frameWrapper {
+.accountCreationMessage {
   width: 1412px;
   border-radius: var(--br-11xl);
   background: linear-gradient(100.07deg, #e2e7ff, #d4e4ff);
@@ -105,11 +105,11 @@
   overflow: hidden;
   flex-shrink: 0;
   align-items: center;
-  padding: var(--padding-3xs) var(--padding-xl);
+  padding: var(--padding-111xl) var(--padding-xl);
   box-sizing: border-box;
   z-index: 1;
 }
-.register3Inner {
+.accountCreationMessageWrapper {
   align-self: stretch;
   align-items: flex-start;
   text-align: center;
@@ -123,6 +123,13 @@
   }
   .logInTo {
     font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 700px) {
+  .accountCreationMessage {
+    padding-top: var(--padding-65xl);
+    padding-bottom: var(--padding-65xl);
+    box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {

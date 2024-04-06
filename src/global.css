@@ -58,14 +58,14 @@ body {
   --color-gainsboro-100: #e6e6e6;
   --color-gainsboro-200: #d9d9d9;
   --obsidian-obsidian-100: #b8b8b8;
-  --color-blueviolet: #8643f3;
+  --color-dodgerblue: #0085ff;
   --color-lavender-100: #ebdfff;
   --color-lavender-200: #d5edff;
-  --color-midnightblue: #270c52;
-  --color-dodgerblue: #0085ff;
-  --color-limegreen: #1aac29;
   --color-honeydew: #eeffed;
+  --color-limegreen: #1aac29;
   --color-darkolivegreen: #073d0c;
+  --color-blueviolet: #8643f3;
+  --color-midnightblue: #270c52;
 
   /* Gaps */
   --gap-61xl: 80px;
@@ -165,6 +165,7 @@ body {
   --padding-base-8: 15.8px;
   --padding-92xl-5: 111.5px;
   --padding-53xl: 72px;
+  --padding-111xl: 130px;
   --padding-65xl: 84px;
   --padding-17xl: 36px;
   --padding-7xs: 6px;

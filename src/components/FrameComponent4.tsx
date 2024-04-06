@@ -10,8 +10,8 @@ const FrameComponent4: FunctionComponent = () => {
   }, [navigate]);
 
   return (
-    <div className={styles.register3Inner}>
-      <div className={styles.frameWrapper}>
+    <div className={styles.accountCreationMessageWrapper}>
+      <div className={styles.accountCreationMessage}>
         <div className={styles.checkCircleFill0Wght400GraParent}>
           <img
             className={styles.checkCircleFill0Wght400GraIcon}
@@ -20,7 +20,7 @@ const FrameComponent4: FunctionComponent = () => {
             src="/check-circle-fill0-wght400-grad0-opsz24-1.svg"
           />
           <div className={styles.frameParent}>
-            <div className={styles.frameContainer}>
+            <div className={styles.frameWrapper}>
               <div className={styles.yourAccountHasBeenCreatedParent}>
                 <h1 className={styles.yourAccountHas}>
                   Your Account Has Been Created!

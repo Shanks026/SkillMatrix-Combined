@@ -49,11 +49,8 @@ const DeepLearningVMImagesAzure1: FunctionComponent<
   return (
     <div className={styles.deepLearningVMImagesAzure}>
       <div className={styles.deepLearningVm}>{deepLearningVMImages}</div>
-      <button
-        className={styles.mSQLIntegrationSSISParent}
-        style={frameButtonStyle}
-      >
-        <div className={styles.mSQLIntegrationSSIS}>
+      <button className={styles.frameParent} style={frameButtonStyle}>
+        <div className={styles.androidComponentsNAWrapper}>
           <div
             className={styles.androidComponentsNA}
             style={androidComponentsNAStyle}
