@@ -1,11 +1,14 @@
 import { FunctionComponent, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import ImageUploader from "./ImageUploader";
 import styles from "./LayoutSettings.module.css";
 
 const LayoutSettings: FunctionComponent = () => {
+  const navigate = useNavigate();
+
   const onImageUploaderClick = useCallback(() => {
-    // Please sync "ADD_SKILL" to the project
-  }, []);
+    navigate("/add-skill");
+  }, [navigate]);
 
   return (
     <div className={styles.layoutSettings}>

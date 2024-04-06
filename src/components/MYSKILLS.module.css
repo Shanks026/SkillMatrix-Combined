@@ -1,0 +1,484 @@
+.percOpIcon {
+  position: absolute;
+  top: -465px;
+  left: -256px;
+  width: 2662.1px;
+  height: 2190.7px;
+}
+.manageSkills {
+  margin: 0;
+  position: absolute;
+  top: 61px;
+  left: 362px;
+  font-size: var(--font-size-21xl);
+  font-weight: 700;
+  font-family: var(--font-urbanist);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.frameChild,
+.frameInner,
+.frameItem {
+  width: 35px;
+  height: 3px;
+  position: relative;
+}
+.vectorParent {
+  position: absolute;
+  top: 68px;
+  left: 1825px;
+  height: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  z-index: 1;
+}
+.skillBoard {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--color-black);
+  text-align: left;
+}
+.sSISCertification {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--color-gray-300);
+  text-align: left;
+  display: inline-block;
+  min-width: 65px;
+}
+.arrowDownIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.inside {
+  flex: 1;
+  border-radius: var(--br-11xl);
+  border: 2px solid var(--obsidian-obsidian-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-9xl);
+  gap: var(--gap-3xs);
+  min-width: 104px;
+}
+.addCircleIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.button1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 82px;
+}
+.inside1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-3xl);
+  background-color: transparent;
+  height: 50px;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(90deg, #1456ff, #5013ff);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+}
+.insideButtonDown {
+  width: 350px;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.azureManagedInstance,
+.insideButtonDown,
+.neojCertification {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.neojCertification {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.azureManagedInstance {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-10xs) var(--padding-3xs)
+    var(--padding-3xs);
+  box-sizing: border-box;
+}
+.proficiency,
+.topic,
+.training {
+  width: 300px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 45px;
+}
+.proficiency,
+.training {
+  width: 160px;
+  min-width: 91px;
+}
+.training {
+  width: 100px;
+  min-width: 65px;
+}
+.certified {
+  min-width: 100px;
+}
+.actions,
+.certification,
+.certified {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.certification {
+  width: 360px;
+  min-width: 104px;
+  max-width: 100%;
+}
+.actions {
+  width: 180px;
+  min-width: 61px;
+}
+.deepLearningVMImagesAzureParent,
+.topicParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.topicParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-31xl);
+}
+.deepLearningVMImagesAzureParent {
+  width: 660px;
+  overflow-x: auto;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: var(--gap-26xl);
+}
+.no,
+.no1,
+.yes,
+.yes1,
+.yes2,
+.yes3 {
+  align-self: stretch;
+  height: 60px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-weight: 500;
+  font-family: var(--font-urbanist);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.yesParent {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+}
+.aacCertification,
+.deepLearningCertification,
+.na,
+.na1,
+.neo4jCertification,
+.ssisCertification {
+  align-self: stretch;
+  height: 60px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-weight: 500;
+  font-family: var(--font-urbanist);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.deepLearningCertificationParent {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  max-width: 100%;
+}
+.eyeIcon {
+  cursor: pointer;
+}
+.edit2Icon,
+.edit2Icon1,
+.edit2Icon2,
+.edit2Icon3,
+.edit2Icon4,
+.edit2Icon5,
+.eyeIcon,
+.eyeIcon1,
+.eyeIcon2,
+.eyeIcon3,
+.eyeIcon4,
+.eyeIcon5,
+.trashIcon,
+.trashIcon1,
+.trashIcon2,
+.trashIcon3,
+.trashIcon4,
+.trashIcon5 {
+  height: 28px;
+  width: 28px;
+  position: relative;
+}
+.elementSorting,
+.eyeEditTrashIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.eyeEditTrashIcons {
+  height: 553px;
+  width: 184px;
+  flex-wrap: wrap;
+  gap: 77px 48px;
+}
+.elementSorting {
+  align-self: stretch;
+  gap: var(--gap-31xl);
+  max-width: 100%;
+}
+.arrowSquareLeftIcon,
+.arrowSquareRightIcon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  min-height: 40px;
+}
+.dashboardDisplayContainer,
+.searchBarComponent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.dashboardDisplayContainer {
+  height: 40px;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.searchBarComponent {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 24px 0 var(--padding-xl);
+}
+.sidebarContainer,
+.sortMessageEdit {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.sortMessageEdit {
+  align-self: stretch;
+  gap: var(--gap-21xl);
+}
+.sidebarContainer {
+  flex: 1;
+  gap: var(--gap-26xl);
+}
+.deepLearnCertification,
+.searchIcon {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.searchIcon {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 6.5px 0 var(--padding-3xs);
+}
+.deepLearnCertification {
+  position: absolute;
+  top: 149px;
+  left: 332px;
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.35),
+    rgba(255, 255, 255, 0.35)
+  );
+  width: 1568px;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) 48.5px var(--padding-12xl);
+  gap: var(--gap-21xl);
+  z-index: 1;
+}
+.searchNormalIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.sidebarInstance {
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.search {
+  width: 69px;
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-urbanist);
+  font-size: var(--font-size-3xl);
+  background-color: transparent;
+  height: 26px;
+  position: relative;
+  color: var(--obsidian-obsidian-300);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.mySkills,
+.searchInputField {
+  max-width: 100%;
+  overflow: hidden;
+}
+.searchInputField {
+  position: sticky;
+  top: 0;
+  left: 1296px;
+  border-radius: var(--br-16xl);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0.75)
+  );
+  width: 502px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) var(--padding-6xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  z-index: 99;
+}
+.mySkills {
+  margin: 0;
+  width: 1920px;
+  height: 1080px;
+  background-color: var(--color-whitesmoke-100);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1500px) {
+  .elementSorting {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 850px) {
+  .manageSkills,
+  .skillBoard {
+    font-size: var(--font-size-13xl);
+  }
+  .neojCertification {
+    flex-wrap: wrap;
+  }
+  .mySkills {
+    height: auto;
+    min-height: 1080;
+  }
+}
+@media screen and (max-width: 450px) {
+  .manageSkills,
+  .skillBoard {
+    font-size: var(--font-size-5xl);
+  }
+  .button {
+    font-size: var(--font-size-base);
+  }
+  .insideButtonDown {
+    flex-wrap: wrap;
+  }
+  .actions,
+  .certification,
+  .certified,
+  .proficiency,
+  .topic,
+  .training {
+    font-size: var(--font-size-lgi);
+  }
+  .aacCertification,
+  .deepLearningCertification,
+  .na,
+  .na1,
+  .neo4jCertification,
+  .no,
+  .no1,
+  .ssisCertification,
+  .yes,
+  .yes1,
+  .yes2,
+  .yes3 {
+    font-size: var(--font-size-lg);
+  }
+}

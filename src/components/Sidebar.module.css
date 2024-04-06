@@ -1,0 +1,282 @@
+.messageEditInput,
+.messageEditInput1,
+.messageEditInput2 {
+  height: 32px;
+  width: 22.9px;
+  position: relative;
+  min-height: 32px;
+}
+.messageEditInput1,
+.messageEditInput2 {
+  width: 18.3px;
+}
+.messageEditInput2 {
+  width: 13.7px;
+}
+.messageEditInput3,
+.messageEditInput4,
+.messageEditInput5 {
+  height: 32px;
+  width: 4.6px;
+  position: relative;
+  min-height: 32px;
+}
+.messageEditInput5 {
+  width: 22.9px;
+}
+.messageEditInput6 {
+  height: 22.9px;
+  width: 18.3px;
+  position: relative;
+}
+.messageEditInput7,
+.messageEditInput8 {
+  height: 27.4px;
+  width: 18.3px;
+  position: relative;
+}
+.messageEditInput8 {
+  height: 22.9px;
+}
+.messageEditInput9 {
+  height: 32px;
+  width: 13.7px;
+  position: relative;
+  min-height: 32px;
+}
+.messageEditInput10 {
+  height: 22.9px;
+  width: 22.9px;
+  position: relative;
+}
+.skillmatrix {
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xl) var(--padding-3xs-9);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+}
+.element4Icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.dashboard {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 108px;
+}
+.sidebar1 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-53xl) var(--padding-3xs)
+    var(--padding-3xs);
+  gap: var(--gap-mini);
+  cursor: pointer;
+}
+.sortIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.dashboard1 {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-weight: 500;
+  font-family: var(--font-urbanist);
+  color: var(--color-black);
+  text-align: left;
+}
+.sidebar2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-26xl) var(--padding-3xs)
+    var(--padding-3xs);
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 46px;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  white-space: nowrap;
+}
+.sidebar2:hover {
+  background-color: var(--color-gainsboro-100);
+}
+.messageEditIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.dashboard2 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 60px;
+}
+.sidebar3 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-101xl) var(--padding-3xs)
+    var(--padding-3xs);
+  gap: var(--gap-mini);
+  cursor: pointer;
+}
+.folder2Icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.dashboard3 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 119px;
+}
+.sidebar4 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-42xl) var(--padding-3xs)
+    var(--padding-3xs);
+  gap: var(--gap-mini);
+  cursor: pointer;
+}
+.notificationIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.dashboard4 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 120px;
+}
+.sidebar5 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-41xl) var(--padding-3xs)
+    var(--padding-3xs);
+  gap: var(--gap-mini);
+  cursor: pointer;
+}
+.messageQuestionIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.dashboard5 {
+  position: relative;
+  font-weight: 500;
+}
+.sidebar6 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-12xl) var(--padding-3xs)
+    var(--padding-3xs);
+  gap: var(--gap-mini);
+  cursor: pointer;
+}
+.setting2Icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.dashboard6 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 80px;
+}
+.folderIcon,
+.sidebar7 {
+  align-self: stretch;
+  flex: 1;
+}
+.sidebar7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-81xl) var(--padding-3xs)
+    var(--padding-3xs);
+  gap: var(--gap-mini);
+  cursor: pointer;
+}
+.folderIcon {
+  padding: 0 var(--padding-xl);
+  gap: var(--gap-11xl);
+}
+.folderIcon,
+.sidebar,
+.sortingFunctionality {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sortingFunctionality {
+  align-self: stretch;
+  height: 604px;
+  gap: var(--gap-31xl);
+}
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 var(--br-xl) var(--br-xl) 0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.35) 0.01%,
+    rgba(255, 255, 255, 0.35)
+  );
+  width: 312px;
+  height: 1080px;
+  overflow: hidden;
+  padding: var(--padding-36xl) var(--padding-4xl-7) var(--padding-36xl)
+    var(--padding-xl);
+  box-sizing: border-box;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+  font-family: var(--font-urbanist);
+}
+@media screen and (max-width: 450px) {
+  .dashboard,
+  .dashboard2,
+  .dashboard3,
+  .dashboard4,
+  .dashboard5,
+  .dashboard6 {
+    font-size: var(--font-size-lg);
+  }
+}

@@ -1,0 +1,72 @@
+.deepLearningVm {
+  height: 60px;
+  width: 300px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.androidComponentsNA {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-limegreen);
+}
+.mSQLIntegrationSSIS {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.advanced {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--color-darkolivegreen);
+  text-align: left;
+  display: inline-block;
+  min-width: 83px;
+}
+.mSQLIntegrationSSISParent {
+  cursor: pointer;
+  border: 2px solid var(--color-limegreen);
+  padding: var(--padding-4xs) var(--padding-xl);
+  background-color: var(--color-honeydew);
+  width: 160px;
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.yes {
+  height: 60px;
+  width: 100px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.deepLearningVMImagesAzure {
+  width: 660px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+  font-family: var(--font-urbanist);
+}
+@media screen and (max-width: 450px) {
+  .deepLearningVm,
+  .yes {
+    font-size: var(--font-size-lg);
+  }
+}

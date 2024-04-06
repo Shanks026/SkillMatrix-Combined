@@ -11,20 +11,20 @@ const EMPLOYEEDASHBOARD: FunctionComponent = () => {
   }, [navigate]);
 
   const onSidebarContainer1Click = useCallback(() => {
-    // Please sync "MY_SKILLS" to the project
-  }, []);
+    navigate("/my-skills");
+  }, [navigate]);
 
   const onSidebarContainer2Click = useCallback(() => {
-    // Please sync "DRAFTS" to the project
-  }, []);
+    navigate("/drafts");
+  }, [navigate]);
 
   const onSidebarContainer3Click = useCallback(() => {
-    // Please sync "SUBMISSIONS" to the project
-  }, []);
+    navigate("/submissions");
+  }, [navigate]);
 
   const onSidebarContainer4Click = useCallback(() => {
-    // Please sync "NOTIFICATION_1" to the project
-  }, []);
+    navigate("/notification-1");
+  }, [navigate]);
 
   const onSidebarContainer5Click = useCallback(() => {
     // Please sync "HELP AND SUPPORT_1" to the project

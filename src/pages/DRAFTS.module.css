@@ -1,0 +1,417 @@
+.percOpIcon {
+  position: absolute;
+  top: -467px;
+  left: -256px;
+  width: 2662.1px;
+  height: 2190.7px;
+}
+.drafts1,
+.frameParent {
+  position: absolute;
+  z-index: 1;
+}
+.drafts1 {
+  margin: 0;
+  top: 61px;
+  left: 362px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 112px;
+}
+.frameParent {
+  top: 150px;
+  left: 332px;
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.35),
+    rgba(255, 255, 255, 0.35)
+  );
+  width: 1568px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) 41px;
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  min-height: 910px;
+  max-width: 100%;
+}
+.dashboardElementChild,
+.dashboardElementInner,
+.dashboardElementItem {
+  width: 35px;
+  height: 3px;
+  position: relative;
+}
+.dashboardElement {
+  position: absolute;
+  top: 68px;
+  left: 1825px;
+  height: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  z-index: 1;
+}
+.searchNormalIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.searchNormalWrapper {
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.search {
+  width: 69px;
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-urbanist);
+  font-size: var(--font-size-3xl);
+  background-color: transparent;
+  height: 26px;
+  position: relative;
+  color: var(--obsidian-obsidian-300);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.searchNormal {
+  position: sticky;
+  top: 0;
+  left: 1296px;
+  border-radius: var(--br-16xl);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0.75)
+  );
+  width: 502px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) var(--padding-6xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  z-index: 99;
+  max-width: 100%;
+}
+.vectorIcon,
+.vectorIcon1 {
+  height: 32px;
+  width: 22.9px;
+  position: relative;
+  min-height: 32px;
+}
+.vectorIcon1 {
+  width: 18.3px;
+}
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  height: 32px;
+  width: 13.7px;
+  position: relative;
+  min-height: 32px;
+}
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  width: 4.6px;
+}
+.vectorIcon5 {
+  width: 22.9px;
+}
+.vectorIcon6 {
+  height: 22.9px;
+  width: 18.3px;
+  position: relative;
+}
+.vectorIcon7,
+.vectorIcon8,
+.vectorIcon9 {
+  height: 27.4px;
+  width: 18.3px;
+  position: relative;
+}
+.vectorIcon8,
+.vectorIcon9 {
+  height: 22.9px;
+}
+.vectorIcon9 {
+  height: 32px;
+  width: 13.7px;
+  min-height: 32px;
+}
+.vectorIcon10 {
+  height: 22.9px;
+  width: 22.9px;
+  position: relative;
+}
+.skillmatrix {
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xl) var(--padding-3xs-9);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+}
+.element4Icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.dashboard {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 108px;
+}
+.sidebar1 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-53xl) var(--padding-3xs)
+    var(--padding-3xs);
+  gap: var(--gap-mini);
+  cursor: pointer;
+}
+.sortIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.dashboard1 {
+  position: relative;
+  font-weight: 500;
+}
+.sidebar2 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-26xl) var(--padding-3xs)
+    var(--padding-3xs);
+  gap: var(--gap-mini);
+  cursor: pointer;
+}
+.messageEditIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.dashboard2 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 60px;
+}
+.sidebar3 {
+  align-self: stretch;
+  height: 46px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-101xl) var(--padding-3xs)
+    var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  cursor: pointer;
+}
+.folder2Icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.dashboard3 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 119px;
+}
+.sidebar4 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-42xl) var(--padding-3xs)
+    var(--padding-3xs);
+  gap: var(--gap-mini);
+  cursor: pointer;
+}
+.notificationIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.dashboard4 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 120px;
+}
+.sidebar5 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-41xl) var(--padding-3xs)
+    var(--padding-3xs);
+  gap: var(--gap-mini);
+  cursor: pointer;
+}
+.messageQuestionIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.dashboard5 {
+  position: relative;
+  font-weight: 500;
+}
+.sidebar6 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-12xl) var(--padding-3xs)
+    var(--padding-3xs);
+  gap: var(--gap-mini);
+  cursor: pointer;
+}
+.setting2Icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.dashboard6 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 80px;
+}
+.elementType,
+.sidebar7,
+.sidebarParent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.sidebar7 {
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xs) var(--padding-81xl) var(--padding-3xs)
+    var(--padding-3xs);
+  gap: var(--gap-mini);
+  cursor: pointer;
+}
+.elementType,
+.sidebarParent {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.sidebarParent {
+  flex: 1;
+  padding: 0 var(--padding-xl);
+  gap: var(--gap-11xl);
+}
+.elementType {
+  height: 604px;
+  gap: var(--gap-31xl);
+}
+.drafts,
+.sidebar {
+  height: 1080px;
+  overflow: hidden;
+}
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 var(--br-xl) var(--br-xl) 0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.35) 0.01%,
+    rgba(255, 255, 255, 0.35)
+  );
+  width: 312px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-36xl) var(--padding-4xl-7) var(--padding-36xl)
+    var(--padding-xl);
+  box-sizing: border-box;
+  z-index: 1;
+  font-size: var(--font-size-3xl);
+}
+.drafts {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-urbanist);
+}
+@media screen and (max-width: 1000px) {
+  .drafts {
+    height: auto;
+    min-height: 1080;
+  }
+}
+@media screen and (max-width: 975px) {
+  .drafts1 {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .drafts1 {
+    font-size: var(--font-size-5xl);
+  }
+  .dashboard,
+  .dashboard1,
+  .dashboard2,
+  .dashboard3,
+  .dashboard4,
+  .dashboard5,
+  .dashboard6 {
+    font-size: var(--font-size-lg);
+  }
+}

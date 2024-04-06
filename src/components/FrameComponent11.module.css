@@ -1,0 +1,63 @@
+.domaintechnologyArea {
+  position: relative;
+}
+.domaintechnologyAreaWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.enterDomaintechnologyArea {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: calc(100% - 34px);
+}
+.arrowDownIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.confirmationQuestionButton,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.confirmationQuestionButton {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  flex-direction: row;
+  padding: var(--padding-xl) var(--padding-base) var(--padding-base)
+    var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-xl);
+  color: var(--obsidian-obsidian-300);
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mini);
+  min-width: 422px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-urbanist);
+}
+@media screen and (max-width: 800px) {
+  .frameParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .domaintechnologyArea {
+    font-size: var(--font-size-lgi);
+  }
+  .enterDomaintechnologyArea {
+    font-size: var(--font-size-base);
+  }
+}

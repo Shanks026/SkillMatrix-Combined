@@ -1,0 +1,107 @@
+.domaintechnologyArea,
+.topicproductWso2 {
+  position: relative;
+  font-weight: 600;
+}
+.domaintechnologyAreaInterWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.subDomaintechnologyEsb {
+  position: relative;
+  font-weight: 600;
+}
+.sidebarContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.domainTechnologyAreas,
+.fillGradients {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.fillGradients {
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-xl);
+  color: var(--obsidian-obsidian-300);
+}
+.domainTechnologyAreas {
+  padding: 0 var(--padding-88xl) 0 var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.deleteFill0Wght400Grad0OpsIcon,
+.editFill0Wght400Grad0Opsz2Icon {
+  height: 35px;
+  width: 35px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 35px;
+}
+.deleteFill0Wght400Grad0OpsIcon {
+  cursor: pointer;
+}
+.editFillGradients {
+  height: 115px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-21xl) var(--padding-16xl);
+  box-sizing: border-box;
+  gap: var(--gap-41xl);
+}
+.topicProduct,
+.topicProductWrapper {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.topicProduct {
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.5)
+  );
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-67xl) var(--padding-3xs)
+    var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.topicProductWrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-urbanist);
+}
+@media screen and (max-width: 1000px) {
+  .topicProduct {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .topicproductWso2 {
+    font-size: var(--font-size-lgi);
+  }
+  .domaintechnologyArea,
+  .subDomaintechnologyEsb {
+    font-size: var(--font-size-base);
+  }
+}

@@ -17,6 +17,10 @@ import EMPLOYEEDASHBOARD from "./pages/EMPLOYEEDASHBOARD";
 import REGISTERPASS1 from "./pages/REGISTERPASS1";
 import REGISTERPASS2 from "./pages/REGISTERPASS2";
 import REGISTERPASS3 from "./pages/REGISTERPASS3";
+import DRAFTS from "./pages/DRAFTS";
+import NOTIFICATION1 from "./pages/NOTIFICATION1";
+import ADDSKILL from "./pages/ADDSKILL";
+import SUBMISSIONS from "./pages/SUBMISSIONS";
 
 function App() {
   const action = useNavigationType();
@@ -82,6 +86,22 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/drafts":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/notification-1":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/add-skill":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/submissions":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -112,6 +132,10 @@ function App() {
       <Route path="/register-pass-1" element={<REGISTERPASS1 />} />
       <Route path="/register-pass-2" element={<REGISTERPASS2 />} />
       <Route path="/register-pass-3" element={<REGISTERPASS3 />} />
+      <Route path="/drafts" element={<DRAFTS />} />
+      <Route path="/notification-1" element={<NOTIFICATION1 />} />
+      <Route path="/add-skill" element={<ADDSKILL />} />
+      <Route path="/submissions" element={<SUBMISSIONS />} />
     </Routes>
   );
 }
