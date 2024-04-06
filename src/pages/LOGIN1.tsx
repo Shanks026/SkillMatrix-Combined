@@ -10,12 +10,12 @@ const LOGIN1: FunctionComponent = () => {
   }, [navigate]);
 
   const onFrameContainerClick = useCallback(() => {
-    // Please sync "REGISTER_1" to the project
-  }, []);
+    navigate("/register-1");
+  }, [navigate]);
 
   const onFrameContainer1Click = useCallback(() => {
-    // Please sync "REGISTER_PASS_1" to the project
-  }, []);
+    navigate("/register-pass-1");
+  }, [navigate]);
 
   return (
     <div className={styles.login1}>
@@ -222,3 +222,4 @@ const LOGIN1: FunctionComponent = () => {
 };
 
 export default LOGIN1;
+

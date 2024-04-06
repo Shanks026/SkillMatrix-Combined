@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import OutputPort from "../components/OutputPort";
+import OutputPort1 from "../components/OutputPort";
 import EventTrigger from "../components/EventTrigger";
 import RuleApplier from "../components/RuleApplier";
 import ValueTransformVisualizer from "../components/ValueTransformVisualizer";
@@ -9,8 +9,8 @@ import styles from "./LANDINGPAGE.module.css";
 const LANDINGPAGE: FunctionComponent = () => {
   return (
     <div className={styles.landingPage}>
-      <div className={styles.wrapperGroup142}>
-        <img className={styles.wrapperGroup142Child} alt="" />
+      <div className={styles.wrapperBranchingTree}>
+        <img className={styles.branchingTreeIcon} alt="" />
       </div>
       <img
         className={styles.group1412}
@@ -18,9 +18,9 @@ const LANDINGPAGE: FunctionComponent = () => {
         alt=""
         src="/group-141-2@2x.png"
       />
-      <OutputPort />
+      <OutputPort1 />
       <EventTrigger />
-      <div className={styles.landingPageInner}>
+      <div className={styles.dataSorter}>
         <div className={styles.frameParent}>
           <div className={styles.frameGroup}>
             <div className={styles.frameWrapper}>
@@ -156,9 +156,9 @@ const LANDINGPAGE: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className={styles.landingPageChild}>
-        <div className={styles.frameParent6}>
-          <div className={styles.howItWorksWrapper}>
+      <div className={styles.divider}>
+        <div className={styles.squareRooter}>
+          <div className={styles.absolutizer}>
             <h1 className={styles.howItWorks}>How It Works?</h1>
           </div>
           <div className={styles.discoverHowOur}>
@@ -166,14 +166,14 @@ const LANDINGPAGE: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className={styles.landingPageInner1}>
-        <div className={styles.frameParent7}>
-          <div className={styles.userRegistrationWrapper}>
+      <div className={styles.minFinder}>
+        <div className={styles.summarizer}>
+          <div className={styles.averageCalculator}>
             <h2 className={styles.userRegistration}>User Registration:</h2>
           </div>
-          <div className={styles.parent}>
+          <div className={styles.modeFinder}>
             <b className={styles.b}>1</b>
-            <div className={styles.signUpForSkillmatrixAndGaWrapper}>
+            <div className={styles.skewnessCalculator}>
               <div className={styles.signUpFor}>
                 Sign up for SkillMatrix and gain access to a comprehensive skill
                 management platform. Admin approval ensures a secure and
@@ -183,15 +183,15 @@ const LANDINGPAGE: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className={styles.landingPageInner2}>
-        <div className={styles.starWithPointsParent}>
-          <div className={styles.starWithPoints}>
+      <div className={styles.correlationCalculator}>
+        <div className={styles.covarianceCalculator}>
+          <div className={styles.pearsonCorrelationCalculator}>
             <h2
               className={styles.skillCapture}
             >{`Skill Capture & Management:`}</h2>
           </div>
-          <div className={styles.pathWithCurveParent}>
-            <div className={styles.pathWithCurve}>
+          <div className={styles.distanceCalculator}>
+            <div className={styles.similarityCalculator}>
               <div className={styles.captureEditAnd}>
                 Capture, edit, and submit your skills effortlessly with
                 SkillMatrix's intuitive interface. Admins and Employees manage
@@ -202,16 +202,16 @@ const LANDINGPAGE: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className={styles.shapeOnPathWrapper}>
-        <div className={styles.shapeOnPath}>
-          <div className={styles.imageOnShape}>
+      <div className={styles.nearestNeighborFinder}>
+        <div className={styles.dBSCANClusterer}>
+          <div className={styles.kMeansClusterer}>
             <h2
               className={styles.dashboardReporting}
             >{`Dashboard & Reporting:`}</h2>
           </div>
-          <div className={styles.shapeWithFillParent}>
+          <div className={styles.spectralClustering}>
             <b className={styles.shapeWithFill}>3</b>
-            <div className={styles.shapeWithStroke}>
+            <div className={styles.principalComponentAnalysis}>
               <div className={styles.diveIntoPersonalized}>
                 Dive into personalized dashboards for skill analytics and
                 insights. Generate detailed reports based on filtered data for
@@ -221,13 +221,13 @@ const LANDINGPAGE: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className={styles.imageWithFill}>
-        <div className={styles.notificationsCommunicationParent}>
+      <div className={styles.decisionTreeClassifier}>
+        <div className={styles.randomForestClassifier}>
           <h2
             className={styles.notificationsCommunication}
           >{`Notifications & Communication:`}</h2>
-          <div className={styles.featureHub}>
-            <div className={styles.resultProcessor}>
+          <div className={styles.conditionSplitterParent}>
+            <div className={styles.conditionSplitter}>
               <div className={styles.stayUpdatedWith}>
                 Stay updated with real-time notifications for skill-related
                 events. Seamlessly communicate with colleagues using integrated
@@ -238,9 +238,9 @@ const LANDINGPAGE: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className={styles.valueSplitter}>
-        <div className={styles.errorHandler}>
-          <div className={styles.weightCalculator}>
+      <div className={styles.iterativeProcessor}>
+        <div className={styles.valueComparators}>
+          <div className={styles.variableAssigner}>
             <h1 className={styles.benefitsGaloreWith}>
               Benefits Galore with SkillMatrix
             </h1>
@@ -260,3 +260,4 @@ const LANDINGPAGE: FunctionComponent = () => {
 };
 
 export default LANDINGPAGE;
+

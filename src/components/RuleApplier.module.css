@@ -1,26 +1,3 @@
-.enhanced,
-.skillManagement {
-  margin: 0;
-}
-.enhancedSkillManagementContainer {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  line-height: 60px;
-  font-weight: 700;
-  font-family: inherit;
-  z-index: 1;
-}
-.validationSuite {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-10xs-3) 0 0;
-  box-sizing: border-box;
-  min-width: 329px;
-  max-width: 100%;
-}
 .effortlesslyKeepTrack {
   width: 645px;
   position: relative;
@@ -33,7 +10,7 @@
   max-width: 100%;
   z-index: 1;
 }
-.connectionBuilder {
+.dataTransformer {
   flex: 1;
   display: flex;
   flex-direction: row;
@@ -43,11 +20,11 @@
   gap: var(--gap-xl);
 }
 .dataFlowController,
-.resultRenderer {
+.decisionMakers {
   align-self: stretch;
   box-sizing: border-box;
 }
-.resultRenderer {
+.decisionMakers {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -62,24 +39,6 @@
   border-top: 1px solid var(--color-mediumblue);
   z-index: 1;
 }
-.dataDrivenInsights {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  line-height: 70px;
-  font-weight: 700;
-  font-family: inherit;
-  z-index: 1;
-}
-.statisticCalculator {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-11xs) 0 0;
-  box-sizing: border-box;
-  max-width: 100%;
-}
 .gainActionableInsights {
   height: 144px;
   width: 645px;
@@ -93,7 +52,7 @@
   max-width: 100%;
   z-index: 1;
 }
-.resultAnalyzer {
+.frameParent {
   flex: 1;
   display: flex;
   flex-direction: row;
@@ -102,12 +61,12 @@
   max-width: 100%;
   gap: var(--gap-xl);
 }
-.resultRenderer1,
-.testGenerator {
+.customFunctions,
+.resultRenderer {
   align-self: stretch;
   box-sizing: border-box;
 }
-.testGenerator {
+.customFunctions {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -115,7 +74,7 @@
   padding: 0 var(--padding-9xs) 0 var(--padding-8xs-5);
   max-width: 100%;
 }
-.resultRenderer1 {
+.resultRenderer {
   height: 1px;
   position: relative;
   border-top: 1px solid var(--color-mediumblue);
@@ -130,7 +89,7 @@
   font-family: inherit;
   z-index: 1;
 }
-.patternVisualizer {
+.layoutDesigners {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -151,7 +110,7 @@
   max-width: 100%;
   z-index: 1;
 }
-.decisionVisualizer {
+.animationControllers {
   flex: 1;
   display: flex;
   flex-direction: row;
@@ -160,12 +119,12 @@
   max-width: 100%;
   gap: var(--gap-xl);
 }
-.resultRenderer2,
-.resultRenderer3 {
+.eventListeners,
+.resultRenderer1 {
   align-self: stretch;
   box-sizing: border-box;
 }
-.resultRenderer2 {
+.eventListeners {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -173,7 +132,7 @@
   padding: 0 var(--padding-9xs) 0 var(--padding-8xs-5);
   max-width: 100%;
 }
-.resultRenderer3 {
+.resultRenderer1 {
   height: 1px;
   position: relative;
   border-top: 1px solid var(--color-mediumblue);
@@ -209,60 +168,60 @@
   max-width: 100%;
   z-index: 1;
 }
-.frameParent {
+.frameGroup {
   flex: 1;
   flex-direction: row;
   justify-content: space-between;
   gap: var(--gap-xl);
 }
-.errorVisualizer,
-.frameParent,
-.resultRenderer4 {
+.dataVisualization,
+.eventListeners1,
+.frameGroup {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
 }
-.resultRenderer4 {
+.eventListeners1 {
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-start;
   padding: 0 var(--padding-9xs) 0 var(--padding-8xs-5);
   box-sizing: border-box;
 }
-.errorVisualizer {
+.dataVisualization {
   gap: var(--gap-40xl-8);
 }
-.algorithmExecutor,
-.errorVisualizer,
-.testGeneratorParent {
+.constantValues,
+.dataVisualization,
+.functionBuilders {
   align-self: stretch;
   flex-direction: column;
   justify-content: flex-start;
 }
-.testGeneratorParent {
+.constantValues {
   display: flex;
   align-items: flex-start;
   gap: var(--gap-44xl-7);
   max-width: 100%;
 }
-.algorithmExecutor {
+.functionBuilders {
   gap: var(--gap-42xl);
   flex-shrink: 0;
 }
-.algorithmExecutor,
-.conditionChecker,
-.ruleApplier {
+.errorHandlers,
+.errorHandlersWrapper,
+.functionBuilders {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
 }
-.conditionChecker {
+.errorHandlers {
   width: 1379px;
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-39xl);
 }
-.ruleApplier {
+.errorHandlersWrapper {
   align-self: stretch;
   flex-direction: row;
   justify-content: center;
@@ -277,26 +236,23 @@
   .effortlesslyKeepTrack1 {
     flex: 1;
   }
-  .decisionVisualizer {
+  .animationControllers {
     flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 1300px) {
-  .validationSuite {
-    flex: 1;
-  }
   .effortlesslyKeepTrack {
     flex: 1;
     min-width: 100%;
   }
-  .connectionBuilder {
+  .dataTransformer {
     flex-wrap: wrap;
   }
   .gainActionableInsights {
     flex: 1;
     min-width: 100%;
   }
-  .resultAnalyzer {
+  .frameParent {
     flex-wrap: wrap;
   }
   .effortlesslyKeepTrack1 {
@@ -306,55 +262,39 @@
     flex: 1;
     min-width: 100%;
   }
-  .frameParent {
+  .frameGroup {
     flex-wrap: wrap;
   }
-  .ruleApplier {
+  .errorHandlersWrapper {
     padding-bottom: var(--padding-48xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 900px) {
-  .enhancedSkillManagementContainer {
-    font-size: var(--font-size-13xl);
-    line-height: 48px;
-  }
-  .dataDrivenInsights,
   .increasedProductivity,
   .userFriendlyInterface {
     font-size: var(--font-size-13xl);
     line-height: 56px;
   }
-  .errorVisualizer {
+  .dataVisualization {
     gap: 30px 59.8px;
   }
-  .testGeneratorParent {
+  .constantValues {
     gap: 32px 63.7px;
   }
-  .algorithmExecutor {
+  .functionBuilders {
     gap: 30px 61px;
   }
-  .conditionChecker {
+  .errorHandlers {
     gap: 29px 58px;
   }
-  .ruleApplier {
+  .errorHandlersWrapper {
     padding-bottom: var(--padding-25xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {
-  .enhancedSkillManagementContainer {
-    font-size: var(--font-size-5xl);
-    line-height: 36px;
-  }
-  .effortlesslyKeepTrack {
-    font-size: var(--font-size-lgi);
-    line-height: 24px;
-  }
-  .dataDrivenInsights {
-    font-size: var(--font-size-5xl);
-    line-height: 42px;
-  }
+  .effortlesslyKeepTrack,
   .gainActionableInsights {
     font-size: var(--font-size-lgi);
     line-height: 24px;
@@ -375,10 +315,11 @@
     font-size: var(--font-size-lgi);
     line-height: 24px;
   }
-  .testGeneratorParent {
+  .constantValues {
     gap: 16px 63.7px;
   }
-  .algorithmExecutor {
+  .functionBuilders {
     gap: 15px 61px;
   }
 }
+

@@ -1,7 +1,7 @@
 import { FunctionComponent, useMemo, type CSSProperties } from "react";
 import styles from "./FrameComponent.module.css";
 
-export type FrameComponentType = {
+export type FrameComponent1Type = {
   arrowDown?: string;
   arrowDown1?: string;
 
@@ -13,7 +13,7 @@ export type FrameComponentType = {
   onInside3Click?: () => void;
 };
 
-const FrameComponent: FunctionComponent<FrameComponentType> = ({
+const FrameComponent1: FunctionComponent<FrameComponent1Type> = ({
   arrowDown,
   arrowDown1,
   propFlexWrap,
@@ -40,4 +40,5 @@ const FrameComponent: FunctionComponent<FrameComponentType> = ({
   );
 };
 
-export default FrameComponent;
+export default FrameComponent1;
+

@@ -1,0 +1,138 @@
+.checkCircleFill0Wght400GraIcon {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.yourAccountHas {
+  margin: 0;
+  width: 719px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.logInTo {
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-weight: 500;
+  color: var(--color-darkslategray);
+  text-align: left;
+}
+.frameContainer,
+.yourAccountHasBeenCreatedParent {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.yourAccountHasBeenCreatedParent {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+  gap: 5px 16px;
+  min-height: 101px;
+}
+.frameContainer {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.button {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 67px;
+  white-space: nowrap;
+}
+.logInButton {
+  align-self: stretch;
+  border-radius: var(--br-16xl);
+  background: linear-gradient(90deg, #5013ff, #1456ff);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xl) var(--padding-xl);
+}
+.loginButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 613px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.checkCircleFill0Wght400GraParent,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.checkCircleFill0Wght400GraParent {
+  width: 725px;
+  justify-content: center;
+}
+.frameWrapper,
+.register3Inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+}
+.frameWrapper {
+  width: 1412px;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(100.07deg, #e2e7ff, #d4e4ff);
+  box-shadow: -15px -15px 30px #f0f2ff, 15px 15px 30px #afcdff;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.register3Inner {
+  align-self: stretch;
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+  font-family: var(--font-urbanist);
+}
+@media screen and (max-width: 950px) {
+  .yourAccountHas {
+    font-size: var(--font-size-21xl);
+  }
+  .logInTo {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .yourAccountHas {
+    font-size: var(--font-size-11xl);
+  }
+  .logInTo {
+    font-size: var(--font-size-lg);
+  }
+  .button {
+    font-size: var(--font-size-xl);
+  }
+}

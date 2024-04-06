@@ -1,0 +1,141 @@
+.welcomeTo {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.skillMatrix {
+  width: 237px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.vectorIcon,
+.vectorIcon1 {
+  height: 52.6px;
+  width: 37.6px;
+  position: relative;
+  min-height: 53px;
+}
+.vectorIcon1 {
+  width: 30.1px;
+}
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  height: 52.6px;
+  width: 22.6px;
+  position: relative;
+  min-height: 53px;
+}
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  width: 7.5px;
+}
+.vectorIcon5 {
+  width: 37.6px;
+}
+.vectorIcon6 {
+  height: 37.6px;
+  width: 30.1px;
+  position: relative;
+}
+.vectorIcon7,
+.vectorIcon8,
+.vectorIcon9 {
+  height: 45.1px;
+  width: 30.1px;
+  position: relative;
+}
+.vectorIcon8,
+.vectorIcon9 {
+  height: 37.6px;
+}
+.vectorIcon9 {
+  height: 52.6px;
+  width: 22.6px;
+  min-height: 53px;
+}
+.vectorIcon10 {
+  height: 37.6px;
+  width: 37.6px;
+  position: relative;
+}
+.skillmatrix {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0;
+  gap: var(--gap-6xs);
+}
+.skillMatrixParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.registerYourAccount {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-16xl);
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--color-black);
+  display: inline-block;
+  max-width: 100%;
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-11xl);
+}
+.frameWrapper {
+  width: 363px;
+  padding: var(--padding-base-8) 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-26xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-urbanist);
+}
+@media screen and (max-width: 800px) {
+  .welcomeTo {
+    font-size: var(--font-size-17xl);
+  }
+  .vectorIcon3,
+  .vectorIcon4 {
+    width: 100%;
+    height: 7.5px;
+  }
+  .skillmatrix {
+    flex-wrap: wrap;
+  }
+  .registerYourAccount {
+    font-size: var(--font-size-9xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcomeTo {
+    font-size: var(--font-size-8xl);
+  }
+  .registerYourAccount {
+    font-size: var(--font-size-2xl);
+  }
+}

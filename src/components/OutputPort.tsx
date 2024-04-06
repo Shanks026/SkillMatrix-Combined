@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
 import styles from "./OutputPort.module.css";
 
-const OutputPort: FunctionComponent = () => {
+const OutputPort1: FunctionComponent = () => {
   return (
     <header className={styles.outputPort}>
       <div className={styles.header}>
@@ -49,4 +49,5 @@ const OutputPort: FunctionComponent = () => {
   );
 };
 
-export default OutputPort;
+export default OutputPort1;
+

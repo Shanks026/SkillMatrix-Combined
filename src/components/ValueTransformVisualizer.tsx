@@ -1,10 +1,10 @@
 import { FunctionComponent } from "react";
-import FrameComponent from "./FrameComponent";
+import FrameComponent1 from "./FrameComponent";
 import styles from "./ValueTransformVisualizer.module.css";
 
 const ValueTransformVisualizer: FunctionComponent = () => {
   return (
-    <div className={styles.valueTransformVisualizer}>
+    <div className={styles.fontSelectors}>
       <div className={styles.connectionVisualizer}>
         <img
           className={styles.connectionVisualizerChild}
@@ -27,7 +27,7 @@ const ValueTransformVisualizer: FunctionComponent = () => {
               </div>
             </div>
           </div>
-          <FrameComponent
+          <FrameComponent1
             arrowDown="pending_I735:9278;649:5291"
             arrowDown1="pending_I735:9279;649:5298"
             propFlexWrap="unset"
@@ -39,3 +39,4 @@ const ValueTransformVisualizer: FunctionComponent = () => {
 };
 
 export default ValueTransformVisualizer;
+

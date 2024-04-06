@@ -1,0 +1,36 @@
+.minusCirlceIcon {
+  height: 22px;
+  width: 22px;
+  position: relative;
+}
+.button {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--color-white);
+  text-align: left;
+}
+.ctaButtons {
+  height: 60px;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(90deg, #1456ff, #5013ff);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mid);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+}
+.imageUploader {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

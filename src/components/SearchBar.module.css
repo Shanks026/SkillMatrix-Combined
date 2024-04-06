@@ -1,0 +1,50 @@
+.email,
+.supporttorryharriscom {
+  align-self: stretch;
+  position: relative;
+}
+.email {
+  height: 34px;
+  line-height: 40px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.supporttorryharriscom {
+  font-size: var(--font-size-xl);
+  line-height: 28px;
+  white-space: nowrap;
+  z-index: 2;
+}
+.breakpoint,
+.emailParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.emailParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xs-1);
+}
+.breakpoint {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--obsidian);
+  font-family: var(--font-urbanist);
+}
+@media screen and (max-width: 450px) {
+  .email {
+    font-size: var(--font-size-xl);
+    line-height: 32px;
+  }
+  .supporttorryharriscom {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+}

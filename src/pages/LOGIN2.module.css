@@ -318,7 +318,7 @@
 .frameItem {
   height: 20px;
   width: 20px;
-  border-radius: 10px;
+  border-radius: var(--br-3xs);
   background-color: var(--color-white);
   border: 1px solid var(--torry-blue-torry-blue-700);
   box-sizing: border-box;
@@ -472,3 +472,4 @@
     font-size: var(--font-size-lg);
   }
 }
+

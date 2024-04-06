@@ -1,14 +1,17 @@
 import { FunctionComponent, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./LOGIN2.module.css";
 
 const LOGIN2: FunctionComponent = () => {
+  const navigate = useNavigate();
+
   const onFrameButtonClick = useCallback(() => {
-    // Please sync "EMPLOYEE_DASHBOARD" to the project
-  }, []);
+    navigate("/employee-dashboard");
+  }, [navigate]);
 
   const onFrameContainer1Click = useCallback(() => {
-    // Please sync "REGISTER_PASS_1" to the project
-  }, []);
+    navigate("/register-pass-1");
+  }, [navigate]);
 
   return (
     <div className={styles.login2}>
@@ -210,3 +213,4 @@ const LOGIN2: FunctionComponent = () => {
 };
 
 export default LOGIN2;
+

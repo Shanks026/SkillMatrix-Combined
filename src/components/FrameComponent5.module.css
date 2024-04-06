@@ -1,0 +1,48 @@
+.enterPassword {
+  width: 170px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.frameChild,
+.passwordInputButton,
+.passwordInputButtonParent {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.passwordInputButton {
+  flex-direction: row;
+}
+.frameChild,
+.passwordInputButtonParent {
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-urbanist);
+}
+.frameChild {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gray-200);
+  height: 74px;
+  border-radius: var(--br-16xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-3xl) var(--padding-11xl);
+  box-sizing: border-box;
+  color: var(--color-dimgray);
+  min-width: 250px;
+}
+.passwordInputButtonParent {
+  flex-direction: column;
+  gap: var(--gap-xl);
+  text-align: center;
+  color: var(--color-black);
+}
+@media screen and (max-width: 450px) {
+  .enterPassword {
+    font-size: var(--font-size-xl);
+  }
+}

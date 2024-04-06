@@ -1,0 +1,278 @@
+.percOpIcon {
+  width: 2662.1px;
+  height: 2190.7px;
+  position: absolute;
+  margin: 0 !important;
+  right: -486.1px;
+  bottom: -643.7px;
+}
+.torryHarrisIntegrationSolutIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logo {
+  align-self: stretch;
+  width: 291px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.successMessageIcon,
+.successMessageIcon1,
+.successMessageIcon2 {
+  height: 33.6px;
+  width: 24px;
+  position: relative;
+  min-height: 34px;
+}
+.successMessageIcon1,
+.successMessageIcon2 {
+  width: 19.2px;
+}
+.successMessageIcon2 {
+  width: 14.4px;
+}
+.successMessageIcon3,
+.successMessageIcon4,
+.successMessageIcon5 {
+  height: 33.6px;
+  width: 4.8px;
+  position: relative;
+  min-height: 34px;
+}
+.successMessageIcon5 {
+  width: 24px;
+}
+.successMessageIcon6 {
+  height: 24px;
+  width: 19.2px;
+  position: relative;
+}
+.successMessageIcon7,
+.successMessageIcon8 {
+  height: 28.8px;
+  width: 19.2px;
+  position: relative;
+}
+.successMessageIcon8 {
+  height: 24px;
+}
+.successMessageIcon9 {
+  height: 33.6px;
+  width: 14.4px;
+  position: relative;
+  min-height: 34px;
+}
+.successMessageIcon10 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.skillmatrix {
+  height: 33.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  z-index: 1;
+}
+.logoParent,
+.skillmatrixWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.skillmatrixWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-26xl-2) 0 0;
+}
+.logoParent {
+  align-self: stretch;
+  height: 124px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.checkCircleFill0Wght400GraIcon {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.passwordChangedSuccessfully {
+  margin: 0;
+  width: 728px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.logInTo {
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-weight: 500;
+  color: var(--color-darkslategray);
+  text-align: left;
+}
+.loginButton,
+.passwordChangedSuccessfullyParent {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.passwordChangedSuccessfullyParent {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 5px 16px;
+  min-height: 101px;
+}
+.loginButton {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.button {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 67px;
+  white-space: nowrap;
+}
+.logInButton {
+  align-self: stretch;
+  border-radius: var(--br-16xl);
+  background: linear-gradient(90deg, #5013ff, #1456ff);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xl) var(--padding-xl);
+}
+.logInButtonWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 613px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.checkCircleFill0Wght400GraParent,
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+.checkCircleFill0Wght400GraParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.frameContainer {
+  width: 725px;
+  justify-content: center;
+}
+.frameWrapper,
+.registerPass4Inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+}
+.frameWrapper {
+  width: 1412px;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(100.07deg, #e2e7ff, #d4e4ff);
+  box-shadow: -15px -15px 30px #f0f2ff, 15px 15px 30px #afcdff;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  padding: 130px var(--padding-xl);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.registerPass4Inner {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.registerPass4 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-19xl) var(--padding-52xl) var(--padding-224xl)
+    var(--padding-52xl-5);
+  box-sizing: border-box;
+  gap: var(--gap-61xl);
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+  font-family: var(--font-urbanist);
+}
+@media screen and (max-width: 975px) {
+  .registerPass4 {
+    gap: 40px 80px;
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 950px) {
+  .passwordChangedSuccessfully {
+    font-size: var(--font-size-21xl);
+  }
+  .logInTo {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 700px) {
+  .frameWrapper {
+    padding-top: var(--padding-65xl);
+    padding-bottom: var(--padding-65xl);
+    box-sizing: border-box;
+  }
+  .registerPass4 {
+    gap: 20px 80px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .passwordChangedSuccessfully {
+    font-size: var(--font-size-11xl);
+  }
+  .logInTo {
+    font-size: var(--font-size-lg);
+  }
+  .button {
+    font-size: var(--font-size-xl);
+  }
+}

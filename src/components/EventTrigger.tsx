@@ -1,6 +1,6 @@
 import { FunctionComponent, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import FrameComponent from "./FrameComponent";
+import FrameComponent1 from "./FrameComponent";
 import styles from "./EventTrigger.module.css";
 
 const EventTrigger: FunctionComponent = () => {
@@ -11,19 +11,19 @@ const EventTrigger: FunctionComponent = () => {
   }, [navigate]);
 
   const onInside1Click = useCallback(() => {
-    // Please sync "REGISTER_1" to the project
-  }, []);
+    navigate("/register-1");
+  }, [navigate]);
 
   return (
-    <div className={styles.eventTrigger}>
-      <div className={styles.dataFlow}>
+    <div className={styles.signalReceiver}>
+      <div className={styles.signalEmitter}>
         <h1 className={styles.empowerYourGrowth}>
           Empower Your Growth with SkillMatrix
         </h1>
-        <div className={styles.dataFlowInner}>
-          <div className={styles.frameParent}>
-            <div className={styles.logicalOperatorParent}>
-              <div className={styles.logicalOperator}>
+        <div className={styles.dataMerger}>
+          <div className={styles.dataMapperParent}>
+            <div className={styles.dataMapper}>
+              <div className={styles.dataFilter}>
                 <h2 className={styles.personalizedSkillTracking}>
                   Personalized Skill Tracking Made Easy!
                 </h2>
@@ -39,7 +39,7 @@ const EventTrigger: FunctionComponent = () => {
               </div>
             </div>
             <div className={styles.frameWrapper}>
-              <FrameComponent
+              <FrameComponent1
                 arrowDown="pending_I735:9249;649:5291"
                 arrowDown1="/arrowdown.svg"
                 onInside2Click={onInsideClick}
@@ -54,3 +54,4 @@ const EventTrigger: FunctionComponent = () => {
 };
 
 export default EventTrigger;
+

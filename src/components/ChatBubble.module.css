@@ -1,0 +1,176 @@
+.contactUs,
+.torryHarrisIntegrated {
+  align-self: stretch;
+  position: relative;
+}
+.contactUs {
+  height: 58px;
+  line-height: 66px;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.torryHarrisIntegrated {
+  font-size: var(--font-size-6xl);
+  line-height: 40px;
+  z-index: 2;
+}
+.contactUsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-4);
+}
+.address,
+.ground1st2nd {
+  align-self: stretch;
+  position: relative;
+}
+.address {
+  height: 34px;
+  line-height: 40px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.ground1st2nd {
+  font-size: var(--font-size-xl);
+  text-decoration: underline;
+  line-height: 28px;
+  color: inherit;
+  z-index: 2;
+}
+.dataGatherer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs-1);
+}
+.phone {
+  align-self: stretch;
+  position: relative;
+  line-height: 40px;
+  z-index: 1;
+}
+.arcConnection {
+  width: 177px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 28px;
+  display: inline-block;
+  z-index: 3;
+}
+.phoneParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.email,
+.helptorryharriscom {
+  align-self: stretch;
+  position: relative;
+}
+.email {
+  height: 34px;
+  line-height: 40px;
+  display: inline-block;
+  z-index: 2;
+}
+.helptorryharriscom {
+  font-size: var(--font-size-xl);
+  line-height: 28px;
+  white-space: nowrap;
+  z-index: 4;
+}
+.inputSplitter,
+.loopControl {
+  display: flex;
+  justify-content: flex-start;
+}
+.loopControl {
+  width: 307px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-9xs-1);
+  margin-left: -307px;
+}
+.inputSplitter {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  max-width: 100%;
+}
+.dataGathererParent {
+  align-self: stretch;
+  gap: var(--gap-lg);
+  font-size: var(--font-size-6xl);
+}
+.dataGathererParent,
+.frameParent,
+.typographyManagers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-31xl);
+}
+.typographyManagers {
+  width: 484px;
+  padding: var(--padding-11xs-1) 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--obsidian);
+  font-family: var(--font-urbanist);
+}
+@media screen and (max-width: 900px) {
+  .contactUs {
+    font-size: var(--font-size-5xl);
+    line-height: 53px;
+  }
+  .frameParent {
+    gap: 25px 50px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contactUs {
+    font-size: var(--font-size-lg);
+    line-height: 40px;
+  }
+  .address,
+  .torryHarrisIntegrated {
+    font-size: var(--font-size-xl);
+    line-height: 32px;
+  }
+  .ground1st2nd {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+  .phone {
+    font-size: var(--font-size-xl);
+    line-height: 32px;
+  }
+  .arcConnection {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+  .email {
+    font-size: var(--font-size-xl);
+    line-height: 32px;
+  }
+  .helptorryharriscom {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+}

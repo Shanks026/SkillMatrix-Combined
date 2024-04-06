@@ -416,7 +416,8 @@
   overflow: hidden;
   flex-direction: column;
   justify-content: flex-start;
-  padding: var(--padding-19xl) 70.6px var(--padding-224xl) var(--padding-52xl-5);
+  padding: var(--padding-19xl) var(--padding-51xl-6) var(--padding-224xl)
+    var(--padding-52xl-5);
   box-sizing: border-box;
   gap: var(--gap-61xl);
   letter-spacing: normal;
@@ -483,3 +484,4 @@
     font-size: var(--font-size-lg);
   }
 }
+

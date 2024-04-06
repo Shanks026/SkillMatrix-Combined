@@ -1,4 +1,4 @@
-.wrapperGroup142Child {
+.branchingTreeIcon {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -8,11 +8,11 @@
   transform: scale(3.88);
 }
 .group1412,
-.wrapperGroup142 {
+.wrapperBranchingTree {
   position: absolute;
   margin: 0 !important;
 }
-.wrapperGroup142 {
+.wrapperBranchingTree {
   width: 5128.2px;
   height: 10133.2px;
   bottom: -2076.4px;
@@ -450,8 +450,8 @@
   gap: var(--gap-66xl);
 }
 .dashInfoFeaturesContainer,
-.frameParent,
-.landingPageInner {
+.dataSorter,
+.frameParent {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -462,7 +462,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
-.landingPageInner {
+.dataSorter {
   align-self: stretch;
   justify-content: flex-end;
   padding: 0 var(--padding-6xl) 132.5px var(--padding-7xl);
@@ -481,7 +481,7 @@
   display: inline-block;
   z-index: 1;
 }
-.howItWorksWrapper {
+.absolutizer {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -497,25 +497,28 @@
   font-weight: 500;
   z-index: 1;
 }
-.frameParent6,
-.landingPageChild {
-  display: flex;
-  align-items: flex-start;
-  max-width: 100%;
-}
-.frameParent6 {
+.squareRooter {
   width: 972px;
+  display: flex;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-7xl-3);
+  max-width: 100%;
   flex-shrink: 0;
 }
-.landingPageChild {
+.divider,
+.userRegistration {
+  display: flex;
+  justify-content: center;
+}
+.divider {
   align-self: stretch;
   flex-direction: row;
-  justify-content: center;
+  align-items: flex-start;
   padding: 0 0 78.3px var(--padding-12xs);
   box-sizing: border-box;
+  max-width: 100%;
   font-size: var(--font-size-41xl);
 }
 .userRegistration {
@@ -526,13 +529,11 @@
   line-height: 206.49px;
   font-weight: 600;
   font-family: inherit;
-  display: flex;
   align-items: center;
-  justify-content: center;
   flex-shrink: 0;
   z-index: 1;
 }
-.userRegistrationWrapper {
+.averageCalculator {
   width: 972px;
   display: flex;
   flex-direction: row;
@@ -561,7 +562,7 @@
   line-height: 35px;
   font-weight: 500;
 }
-.signUpForSkillmatrixAndGaWrapper {
+.skewnessCalculator {
   width: 644px;
   display: flex;
   flex-direction: column;
@@ -574,12 +575,7 @@
   font-size: var(--font-size-11xl);
   color: var(--obsidian);
 }
-.frameParent7,
-.parent {
-  display: flex;
-  max-width: 100%;
-}
-.parent {
+.modeFinder {
   align-self: stretch;
   flex-direction: row;
   align-items: flex-start;
@@ -589,21 +585,25 @@
   font-size: var(--font-size-481xl);
   color: transparent;
 }
-.frameParent7 {
+.minFinder,
+.modeFinder,
+.summarizer {
+  display: flex;
+  max-width: 100%;
+}
+.summarizer {
   flex: 1;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
 }
-.landingPageInner1 {
+.minFinder {
   width: 1185px;
-  display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
   padding: 0 51px 196.3px;
   box-sizing: border-box;
-  max-width: 100%;
 }
 .skillCapture {
   margin: 0;
@@ -618,7 +618,7 @@
   flex-shrink: 0;
   z-index: 1;
 }
-.starWithPoints {
+.pearsonCorrelationCalculator {
   width: 759px;
   display: flex;
   flex-direction: row;
@@ -635,7 +635,7 @@
   font-weight: 500;
   z-index: 2;
 }
-.pathWithCurve {
+.similarityCalculator {
   width: 644px;
   display: flex;
   flex-direction: column;
@@ -658,7 +658,7 @@
   flex-shrink: 0;
   z-index: 1;
 }
-.pathWithCurveParent {
+.distanceCalculator {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -669,18 +669,18 @@
   margin-top: -82.5px;
   font-size: var(--font-size-11xl);
 }
-.landingPageInner2,
-.starWithPointsParent {
+.correlationCalculator,
+.covarianceCalculator {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
-.starWithPointsParent {
+.covarianceCalculator {
   width: 1201px;
   flex-direction: column;
 }
-.landingPageInner2 {
+.correlationCalculator {
   align-self: stretch;
   flex-direction: row;
   padding: 0 var(--padding-33xl) 198.3px;
@@ -701,12 +701,12 @@
   max-width: 100%;
   z-index: 1;
 }
-.imageOnShape,
+.kMeansClusterer,
 .shapeWithFill {
   display: flex;
   justify-content: center;
 }
-.imageOnShape {
+.kMeansClusterer {
   align-self: stretch;
   flex-direction: row;
   align-items: flex-start;
@@ -730,13 +730,13 @@
   font-weight: 500;
   z-index: 1;
 }
-.shapeWithFillParent,
-.shapeWithStroke {
+.principalComponentAnalysis,
+.spectralClustering {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
 }
-.shapeWithStroke {
+.principalComponentAnalysis {
   width: 609px;
   flex-direction: column;
   justify-content: flex-start;
@@ -747,7 +747,7 @@
   font-size: var(--font-size-11xl);
   color: var(--obsidian);
 }
-.shapeWithFillParent {
+.spectralClustering {
   align-self: stretch;
   flex-direction: row;
   justify-content: space-between;
@@ -757,8 +757,8 @@
   font-size: var(--font-size-481xl);
   color: transparent;
 }
-.shapeOnPath,
-.shapeOnPathWrapper {
+.dBSCANClusterer,
+.nearestNeighborFinder {
   width: 1168px;
   display: flex;
   flex-direction: column;
@@ -766,7 +766,7 @@
   justify-content: flex-start;
   max-width: 100%;
 }
-.shapeOnPathWrapper {
+.nearestNeighborFinder {
   width: 1340px;
   flex-direction: row;
   justify-content: center;
@@ -796,7 +796,7 @@
   font-weight: 500;
   z-index: 1;
 }
-.resultProcessor {
+.conditionSplitter {
   width: 644px;
   display: flex;
   flex-direction: column;
@@ -819,7 +819,7 @@
   flex-shrink: 0;
   z-index: 1;
 }
-.featureHub {
+.conditionSplitterParent {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -830,18 +830,18 @@
   margin-top: -59px;
   font-size: var(--font-size-11xl);
 }
-.imageWithFill,
-.notificationsCommunicationParent {
+.decisionTreeClassifier,
+.randomForestClassifier {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
-.notificationsCommunicationParent {
+.randomForestClassifier {
   width: 1203px;
   flex-direction: column;
 }
-.imageWithFill {
+.decisionTreeClassifier {
   align-self: stretch;
   flex-direction: row;
   padding: 0 var(--padding-33xl) 195.8px;
@@ -859,7 +859,7 @@
   display: inline-block;
   z-index: 1;
 }
-.weightCalculator {
+.variableAssigner {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -875,19 +875,19 @@
   font-weight: 500;
   z-index: 1;
 }
-.errorHandler,
-.valueSplitter {
+.iterativeProcessor,
+.valueComparators {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
 }
-.errorHandler {
+.valueComparators {
   width: 1062px;
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-7xl-3);
 }
-.valueSplitter {
+.iterativeProcessor {
   align-self: stretch;
   flex-direction: row;
   justify-content: center;
@@ -933,51 +933,52 @@
   }
 }
 @media screen and (max-width: 1300px) {
-  .landingPageInner {
-    padding-bottom: 86px;
+  .dataSorter {
+    padding-bottom: var(--padding-67xl);
     box-sizing: border-box;
   }
-  .parent {
+  .modeFinder {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .landingPageInner1 {
+  .minFinder {
     padding-left: var(--padding-6xl);
     padding-right: var(--padding-6xl);
     box-sizing: border-box;
   }
-  .pathWithCurve {
+  .similarityCalculator {
     flex: 1;
     min-width: 100%;
   }
-  .pathWithCurveParent {
+  .distanceCalculator {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .landingPageInner2 {
+  .correlationCalculator {
     padding-left: var(--padding-7xl);
     padding-right: var(--padding-7xl);
     box-sizing: border-box;
   }
-  .imageOnShape {
+  .kMeansClusterer {
     padding-left: 233px;
     box-sizing: border-box;
   }
-  .shapeWithStroke {
+  .principalComponentAnalysis {
     flex: 1;
   }
-  .shapeWithFillParent {
+  .spectralClustering {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .resultProcessor {
+  .conditionSplitter {
     flex: 1;
     min-width: 100%;
   }
-  .featureHub {
+  .conditionSplitterParent {
     flex-wrap: wrap;
   }
-  .imageWithFill {
+  .decisionTreeClassifier,
+  .landingPage {
     padding-left: var(--padding-7xl);
     padding-right: var(--padding-7xl);
     box-sizing: border-box;
@@ -985,8 +986,7 @@
   .landingPage {
     gap: 51px 102.5px;
     padding-left: var(--padding-35xl);
-    padding-right: 55px;
-    box-sizing: border-box;
+    padding-right: var(--padding-36xl);
   }
 }
 @media screen and (max-width: 900px) {
@@ -995,7 +995,7 @@
     flex-wrap: wrap;
     gap: 85px 42px;
   }
-  .landingPageInner {
+  .dataSorter {
     padding-bottom: 56px;
     box-sizing: border-box;
   }
@@ -1018,7 +1018,7 @@
     font-size: var(--font-size-5xl);
     line-height: 28px;
   }
-  .landingPageInner1 {
+  .minFinder {
     padding-bottom: 128px;
     box-sizing: border-box;
   }
@@ -1038,7 +1038,7 @@
     font-size: var(--font-size-13xl);
     line-height: 165px;
   }
-  .imageOnShape {
+  .kMeansClusterer {
     padding-left: 116px;
     box-sizing: border-box;
   }
@@ -1050,10 +1050,10 @@
     font-size: var(--font-size-5xl);
     line-height: 28px;
   }
-  .shapeWithStroke {
+  .principalComponentAnalysis {
     min-width: 100%;
   }
-  .shapeOnPathWrapper {
+  .nearestNeighborFinder {
     padding-bottom: 122px;
     box-sizing: border-box;
   }
@@ -1069,7 +1069,7 @@
     font-size: var(--font-size-181xl);
     line-height: 124px;
   }
-  .imageWithFill {
+  .decisionTreeClassifier {
     padding-bottom: 127px;
     box-sizing: border-box;
   }
@@ -1161,7 +1161,7 @@
     font-size: var(--font-size-106xl);
     line-height: 83px;
   }
-  .landingPageInner2 {
+  .correlationCalculator {
     padding-bottom: 129px;
     box-sizing: border-box;
   }
@@ -1197,3 +1197,4 @@
     line-height: 24px;
   }
 }
+

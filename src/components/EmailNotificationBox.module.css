@@ -1,0 +1,162 @@
+.vectorIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.mailFill0Wght400Grad0Opsz2 {
+  width: 99.3px;
+  height: 100.7px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mid) var(--padding-5xs);
+  box-sizing: border-box;
+}
+.weveSentYou {
+  margin: 0;
+  width: 612px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.aResetPassword {
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-weight: 500;
+  color: var(--color-darkslategray);
+  text-align: left;
+}
+.loginButton,
+.loginButtonWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+.loginButton {
+  justify-content: center;
+  padding: 0 var(--padding-9xs-5);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.loginButtonWrapper {
+  justify-content: flex-start;
+}
+.button {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 93px;
+}
+.logInButton {
+  align-self: stretch;
+  border-radius: var(--br-16xl);
+  background: linear-gradient(90deg, #5013ff, #1456ff);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xl) var(--padding-xl);
+}
+.logInButtonWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 613px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.mailFill0Wght400Grad0Opsz2Parent,
+.passwordResetArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.passwordResetArea {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.mailFill0Wght400Grad0Opsz2Parent {
+  width: 779px;
+  justify-content: center;
+  padding: 0 0 var(--padding-12xs-1);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.emailNotificationBox,
+.mailFillGradient {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+}
+.mailFillGradient {
+  width: 1412px;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(100.07deg, #e2e7ff, #d4e4ff);
+  box-shadow: -15px -15px 30px #f0f2ff, 15px 15px 30px #afcdff;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  padding: var(--padding-113xl-2) var(--padding-xl) var(--padding-113xl-1);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.emailNotificationBox {
+  align-self: stretch;
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+  font-family: var(--font-urbanist);
+}
+@media screen and (max-width: 950px) {
+  .weveSentYou {
+    font-size: var(--font-size-21xl);
+  }
+  .aResetPassword {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 700px) {
+  .mailFillGradient {
+    padding-top: var(--padding-67xl);
+    padding-bottom: var(--padding-67xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .weveSentYou {
+    font-size: var(--font-size-11xl);
+  }
+  .aResetPassword {
+    font-size: var(--font-size-lg);
+  }
+  .button {
+    font-size: var(--font-size-xl);
+  }
+  .passwordResetArea {
+    gap: 20px 40px;
+  }
+}

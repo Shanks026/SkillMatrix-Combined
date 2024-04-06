@@ -5,10 +5,18 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import LOGIN from "./pages/LOGIN";
 import LANDINGPAGE from "./pages/LANDINGPAGE";
+import LOGIN from "./pages/LOGIN";
 import LOGIN1 from "./pages/LOGIN1";
 import LOGIN2 from "./pages/LOGIN2";
+import REGISTER from "./pages/REGISTER";
+import REGISTER1 from "./pages/REGISTER1";
+import REGISTER2 from "./pages/REGISTER2";
+import REGISTERPASS from "./pages/REGISTERPASS";
+import EMPLOYEEDASHBOARD from "./pages/EMPLOYEEDASHBOARD";
+import REGISTERPASS1 from "./pages/REGISTERPASS1";
+import REGISTERPASS2 from "./pages/REGISTERPASS2";
+import REGISTERPASS3 from "./pages/REGISTERPASS3";
 
 function App() {
   const action = useNavigationType();
@@ -30,7 +38,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/landing-page":
+      case "/login-3":
         title = "";
         metaDescription = "";
         break;
@@ -39,6 +47,38 @@ function App() {
         metaDescription = "";
         break;
       case "/login-2":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/register-1":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/register-2":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/register-3":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/register-pass-4":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/employee-dashboard":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/register-pass-1":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/register-pass-2":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/register-pass-3":
         title = "";
         metaDescription = "";
         break;
@@ -60,11 +100,20 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<LOGIN />} />
-      <Route path="/landing-page" element={<LANDINGPAGE />} />
+      <Route path="/" element={<LANDINGPAGE />} />
+      <Route path="/login-3" element={<LOGIN />} />
       <Route path="/login-1" element={<LOGIN1 />} />
       <Route path="/login-2" element={<LOGIN2 />} />
+      <Route path="/register-1" element={<REGISTER />} />
+      <Route path="/register-2" element={<REGISTER1 />} />
+      <Route path="/register-3" element={<REGISTER2 />} />
+      <Route path="/register-pass-4" element={<REGISTERPASS />} />
+      <Route path="/employee-dashboard" element={<EMPLOYEEDASHBOARD />} />
+      <Route path="/register-pass-1" element={<REGISTERPASS1 />} />
+      <Route path="/register-pass-2" element={<REGISTERPASS2 />} />
+      <Route path="/register-pass-3" element={<REGISTERPASS3 />} />
     </Routes>
   );
 }
 export default App;
+

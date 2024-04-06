@@ -1,0 +1,44 @@
+.enhanced,
+.skillManagement {
+  margin: 0;
+}
+.enhancedSkillManagementContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.matrixOperations {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-3) 0 0;
+  box-sizing: border-box;
+  min-width: 329px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--obsidian);
+  font-family: var(--font-urbanist);
+}
+@media screen and (max-width: 1300px) {
+  .matrixOperations {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 900px) {
+  .enhancedSkillManagementContainer {
+    font-size: var(--font-size-13xl);
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .enhancedSkillManagementContainer {
+    font-size: var(--font-size-5xl);
+    line-height: 36px;
+  }
+}

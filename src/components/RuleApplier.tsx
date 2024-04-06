@@ -1,18 +1,15 @@
 import { FunctionComponent } from "react";
+import OutputPort from "./OutputPort";
+import FrameComponent from "./FrameComponent";
 import styles from "./RuleApplier.module.css";
 
 const RuleApplier: FunctionComponent = () => {
   return (
-    <div className={styles.ruleApplier}>
-      <div className={styles.conditionChecker}>
-        <div className={styles.resultRenderer}>
-          <div className={styles.connectionBuilder}>
-            <div className={styles.validationSuite}>
-              <h2 className={styles.enhancedSkillManagementContainer}>
-                <p className={styles.enhanced}>Enhanced</p>
-                <p className={styles.skillManagement}>Skill Management</p>
-              </h2>
-            </div>
+    <div className={styles.errorHandlersWrapper}>
+      <div className={styles.errorHandlers}>
+        <div className={styles.decisionMakers}>
+          <div className={styles.dataTransformer}>
+            <OutputPort />
             <div className={styles.effortlesslyKeepTrack}>
               Effortlessly keep track of employees' evolving skills and
               expertise with SkillMatrix. Our platform allows you to maintain a
@@ -22,16 +19,12 @@ const RuleApplier: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className={styles.algorithmExecutor}>
+        <div className={styles.functionBuilders}>
           <div className={styles.dataFlowController} />
-          <div className={styles.testGeneratorParent}>
-            <div className={styles.testGenerator}>
-              <div className={styles.resultAnalyzer}>
-                <div className={styles.statisticCalculator}>
-                  <h2 className={styles.dataDrivenInsights}>
-                    Data-Driven Insights
-                  </h2>
-                </div>
+          <div className={styles.constantValues}>
+            <div className={styles.customFunctions}>
+              <div className={styles.frameParent}>
+                <FrameComponent />
                 <div className={styles.gainActionableInsights}>
                   Gain actionable insights with SkillMatrix's robust reporting
                   and analytics capabilities. Our platform enables talent
@@ -41,11 +34,11 @@ const RuleApplier: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className={styles.errorVisualizer}>
-              <div className={styles.resultRenderer1} />
-              <div className={styles.resultRenderer2}>
-                <div className={styles.decisionVisualizer}>
-                  <div className={styles.patternVisualizer}>
+            <div className={styles.dataVisualization}>
+              <div className={styles.resultRenderer} />
+              <div className={styles.eventListeners}>
+                <div className={styles.animationControllers}>
+                  <div className={styles.layoutDesigners}>
                     <h2 className={styles.userFriendlyInterface}>
                       User-Friendly Interface
                     </h2>
@@ -59,9 +52,9 @@ const RuleApplier: FunctionComponent = () => {
                   </div>
                 </div>
               </div>
-              <div className={styles.resultRenderer3} />
-              <div className={styles.resultRenderer4}>
-                <div className={styles.frameParent}>
+              <div className={styles.resultRenderer1} />
+              <div className={styles.eventListeners1}>
+                <div className={styles.frameGroup}>
                   <div className={styles.increasedProductivityWrapper}>
                     <h2 className={styles.increasedProductivity}>
                       Increased Productivity
@@ -84,3 +77,4 @@ const RuleApplier: FunctionComponent = () => {
 };
 
 export default RuleApplier;
+

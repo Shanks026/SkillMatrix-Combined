@@ -1,149 +1,16 @@
-.contactUs,
-.torryHarrisIntegrated {
-  align-self: stretch;
-  position: relative;
-}
-.contactUs {
-  height: 58px;
-  line-height: 66px;
-  font-weight: 600;
-  display: inline-block;
-  z-index: 1;
-}
-.torryHarrisIntegrated {
-  font-size: var(--font-size-6xl);
-  line-height: 40px;
-  z-index: 2;
-}
-.ruleComparator {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-6xs-4);
-}
-.address,
-.ground1st2nd {
-  align-self: stretch;
-  position: relative;
-}
-.address {
-  height: 34px;
-  line-height: 40px;
-  font-weight: 500;
-  display: inline-block;
-  z-index: 1;
-}
-.ground1st2nd {
-  font-size: var(--font-size-xl);
-  text-decoration: underline;
-  line-height: 28px;
-  color: inherit;
-  z-index: 2;
-}
-.dataAggregator {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-7xs-1);
-}
-.phone {
-  align-self: stretch;
-  position: relative;
-  line-height: 40px;
-  z-index: 1;
-}
-.arcConnection {
-  width: 177px;
-  position: relative;
-  font-size: var(--font-size-xl);
-  line-height: 28px;
-  display: inline-block;
-  z-index: 3;
-}
-.phoneParent {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  max-width: 100%;
-}
-.email,
-.helptorryharriscom {
-  align-self: stretch;
-  position: relative;
-}
-.email {
-  height: 34px;
-  line-height: 40px;
-  display: inline-block;
-  z-index: 2;
-}
-.helptorryharriscom {
-  font-size: var(--font-size-xl);
-  line-height: 28px;
-  white-space: nowrap;
-  z-index: 4;
-}
-.emailParent,
-.frameParent {
-  display: flex;
-  justify-content: flex-start;
-}
-.emailParent {
-  width: 307px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: var(--gap-9xs-1);
-  margin-left: -307px;
-}
-.frameParent {
-  align-self: stretch;
-  flex-direction: row;
-  align-items: flex-end;
-  max-width: 100%;
-}
-.connectionComparator {
-  align-self: stretch;
-  gap: var(--gap-lg);
-  font-size: var(--font-size-6xl);
-}
-.connectionComparator,
-.decisionComparator,
-.patternComparator {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  max-width: 100%;
-}
-.patternComparator {
-  align-self: stretch;
-  gap: var(--gap-31xl);
-}
-.decisionComparator {
-  width: 484px;
-  padding: var(--padding-11xs-1) 0 0;
-  box-sizing: border-box;
-  font-size: var(--font-size-11xl);
-}
 .supportHelpdesk {
   font-size: var(--font-size-11xl);
   line-height: 66px;
   font-weight: 600;
   z-index: 1;
 }
-.phone1,
+.phone,
 .starShape,
 .supportHelpdesk {
   align-self: stretch;
   position: relative;
 }
-.phone1 {
+.phone {
   height: 34px;
   line-height: 40px;
   font-weight: 500;
@@ -155,56 +22,20 @@
   line-height: 28px;
   z-index: 2;
 }
-.frameWrapper,
-.phoneGroup {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  max-width: 100%;
-}
-.phoneGroup {
+.assignmentOperator {
   flex: 1;
   flex-direction: column;
   gap: var(--gap-9xs-1);
 }
-.frameWrapper {
-  align-self: stretch;
-  flex-direction: row;
-  padding: 0 0 0 var(--padding-10xs);
-  box-sizing: border-box;
-}
-.email1,
-.supporttorryharriscom {
-  align-self: stretch;
-  position: relative;
-}
-.email1 {
-  height: 34px;
-  line-height: 40px;
-  font-weight: 500;
-  display: inline-block;
-  z-index: 1;
-}
-.supporttorryharriscom {
-  font-size: var(--font-size-xl);
-  line-height: 28px;
-  white-space: nowrap;
-  z-index: 2;
-}
-.emailGroup {
-  flex: 1;
-  flex-direction: column;
-  gap: var(--gap-9xs-1);
-}
-.emailGroup,
-.frameContainer,
+.assignmentOperator,
+.breakpoint,
 .supportHelpdeskParent {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
-.frameContainer {
+.breakpoint {
   align-self: stretch;
   flex-direction: row;
   padding: 0 0 0 var(--padding-10xs);
@@ -293,8 +124,8 @@
   height: 34px;
   display: inline-block;
 }
-.cylinderComponent,
-.parallelogramComponent {
+.instagramParent,
+.socialMediaParent {
   width: 129px;
   display: flex;
   flex-direction: column;
@@ -302,22 +133,22 @@
   justify-content: flex-start;
   gap: var(--gap-xl);
 }
-.cylinderComponent {
+.socialMediaParent {
   width: 184px;
   gap: var(--gap-7xl-9);
 }
-.dataComparator,
-.errorComparator {
+.styleProfiles,
+.symbolInstances {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   max-width: 100%;
 }
-.errorComparator {
+.styleProfiles {
   justify-content: flex-start;
   gap: var(--gap-61xl);
 }
-.dataComparator {
+.symbolInstances {
   align-self: stretch;
   justify-content: center;
   padding: 0 0 0 var(--padding-12xs);
@@ -328,75 +159,31 @@
   font-family: var(--font-urbanist);
 }
 @media screen and (max-width: 1650px) {
-  .errorComparator {
+  .styleProfiles {
     flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 900px) {
-  .contactUs {
-    font-size: var(--font-size-5xl);
-    line-height: 53px;
-  }
-  .patternComparator {
-    gap: 25px 50px;
-  }
   .quickLinks,
   .socialMedia,
   .supportHelpdesk {
     font-size: var(--font-size-5xl);
     line-height: 53px;
   }
-  .errorComparator {
+  .styleProfiles {
     gap: 80px 40px;
   }
 }
 @media screen and (max-width: 450px) {
-  .contactUs {
+  .supportHelpdesk {
     font-size: var(--font-size-lg);
     line-height: 40px;
-  }
-  .address,
-  .torryHarrisIntegrated {
-    font-size: var(--font-size-xl);
-    line-height: 32px;
-  }
-  .ground1st2nd {
-    font-size: var(--font-size-base);
-    line-height: 22px;
   }
   .phone {
     font-size: var(--font-size-xl);
     line-height: 32px;
   }
-  .arcConnection {
-    font-size: var(--font-size-base);
-    line-height: 22px;
-  }
-  .email {
-    font-size: var(--font-size-xl);
-    line-height: 32px;
-  }
-  .helptorryharriscom {
-    font-size: var(--font-size-base);
-    line-height: 22px;
-  }
-  .supportHelpdesk {
-    font-size: var(--font-size-lg);
-    line-height: 40px;
-  }
-  .phone1 {
-    font-size: var(--font-size-xl);
-    line-height: 32px;
-  }
   .starShape {
-    font-size: var(--font-size-base);
-    line-height: 22px;
-  }
-  .email1 {
-    font-size: var(--font-size-xl);
-    line-height: 32px;
-  }
-  .supporttorryharriscom {
     font-size: var(--font-size-base);
     line-height: 22px;
   }
@@ -423,7 +210,8 @@
     font-size: var(--font-size-xl);
     line-height: 32px;
   }
-  .errorComparator {
+  .styleProfiles {
     gap: 80px 20px;
   }
 }
+
